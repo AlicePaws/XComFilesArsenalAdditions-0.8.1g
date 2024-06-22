@@ -15,6 +15,7 @@ alienMissions:
         objective: true
 alienDeployments:
   - type: STR_MUTON_UFO_WILDERNESS
+    unlockedResearch: STR_MUTON_UFO_RAIDED
     width: 60 #50
     length: 60 #50
     height: 10
