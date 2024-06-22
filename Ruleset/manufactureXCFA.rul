@@ -890,17 +890,6 @@ manufacture:
     requiredItems:
       STR_DURATHREAD: 2
     listOrder: 16741
-  - name: STR_BLACKOPS_NIGHTVISION
-    category: STR_PERSONAL_ARMOR
-    requires:
-      - STR_ADVANCED_NIGHTOPS
-    space: 8
-    time: 1500
-    cost: 15000
-    requiresBaseFunc: [WORKS]
-    requiredItems:
-      STR_DURATHREAD: 4
-    listOrder: 16742
   - name: STR_BREAKDOWN_STR_PLASMA_GATLER_CLIP
     category: STR_COMPONENTS
     requires:

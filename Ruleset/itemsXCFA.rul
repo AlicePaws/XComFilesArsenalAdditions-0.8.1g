@@ -8942,11 +8942,6 @@ items:
     costBuy: 8000
     costSell: 5000
     listOrder: 16731
-  - type: STR_BLACKOPS_NIGHTVISION
-    categories: [STR_HUMAN_TECH, STR_OUTFITS]
-    size: 1.0
-    costSell: 7000
-    listOrder: 16732
   - type: STR_NIGHT_JUMPSUIT
     categories: [STR_HUMAN_TECH, STR_OUTFITS]
     size: 0.9
