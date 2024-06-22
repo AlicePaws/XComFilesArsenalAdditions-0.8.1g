@@ -482,7 +482,10 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 100
         itemSets: *AnchorEmptyInventory
+    missionBountyItem: STR_ALIEN_ALLOY
+    missionBountyItemCount: 75
   - type: STR_MUTON_UFO_VILLAGE
+    unlockedResearch: STR_MUTON_UFO_RAIDED
     width: 60
     length: 60
     height: 10
@@ -513,6 +516,8 @@ alienDeployments:
       - RURAL
       - URBAN
     data: *TroopShipMuton
+    missionBountyItem: STR_ALIEN_ALLOY
+    missionBountyItemCount: 75
 mapScripts:
   - type: MUTON_UFO_VILLAGE
     commands:
