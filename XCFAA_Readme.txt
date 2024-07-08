@@ -937,3 +937,4 @@ Made Heavy Riot Suit's repairable without needing the EXALT Warehouse mission to
 Added NSV Machine Gun to Reinforced Red Dawn Boxes 
 Removed Tactical Ops Suit armor (redundant)
 Muton UFO mission will stop spawning once succesfuly completed, will also give alien alloys
+Removed heavy weapons strenght bonus 
