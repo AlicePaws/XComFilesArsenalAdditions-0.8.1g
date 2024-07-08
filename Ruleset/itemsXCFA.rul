@@ -889,8 +889,8 @@ items:
     invWidth: 1
     listOrder: 20133
   - type: STR_TASER_CANNON
-    accuracyMultiplier:
-      strength: &HeavyWeaponStrenghtMultiplier [0, 0.02]
+    # accuracyMultiplier:
+      # strength: &HeavyWeaponStrenghtMultiplier [0, 0.02]
   - type: STR_ADS
     compatibleAmmo: !add
       - STR_WP_5_45_CLIP_AP
@@ -1165,8 +1165,8 @@ items:
       ArmorEffectiveness: 0.9
       ToArmorPre: 0.1
   - type: STR_ALIEN_LASER_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     accuracyCloseQuarters: 85
     accuracyAuto: 45
     accuracySnap: 70
@@ -1205,62 +1205,62 @@ items:
       ToArmorPre: 0.05
     clipSize: 6
     listOrder: 30081
-  - type: STR_PLASMA_DESTROYER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_PRECISION_PLASMA
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_SONIC_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_WARP_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_THUNDER_ARCER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_HEAVY_GAUSS
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_HEAVY_MASS_DRIVER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_DISRUPTOR_HEAVY
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_HUMAN_SONIC_HEAVY_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_ION_BLASTER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_LIGHTNING_THROWER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_IONIZER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_GAS_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_FIRE_LAUNCHER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
-  - type: STR_INCINERATOR
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_PLASMA_DESTROYER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_PRECISION_PLASMA
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_SONIC_CANNON
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_WARP_CANNON
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_THUNDER_ARCER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_HEAVY_GAUSS
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_HEAVY_MASS_DRIVER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_DISRUPTOR_HEAVY
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_HUMAN_SONIC_HEAVY_CANNON
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_ION_BLASTER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_LIGHTNING_THROWER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_IONIZER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_GAS_CANNON
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_FIRE_LAUNCHER
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
+  # - type: STR_INCINERATOR
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
   - type: STR_UAC_BFG
     accuracyMultiplier:
       firing: 0.3
       bravery: 0.7
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
   - type: STR_ASSAULT_CANNON
     compatibleAmmo: !add
       - STR_ASSAULT_CANNON_CLIP_BS
       - STR_ASSAULT_CANNON_CLIP_AA_BS
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
   - type: STR_ASSAULT_CANNON_CLIP_BS
     categories: [STR_HUMAN_TECH, STR_HEAVY_WEAPONS, STR_CANNONS, STR_FIREARMS, STR_CLIPS, STR_LAND]
     requiresBuy:
@@ -1323,8 +1323,8 @@ items:
     attraction: 15
     listOrder: 23420
   - type: STR_NUCLEAR_HEAVY_LASER
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     hitAnimation: 232
     damageType: 3
     blastRadius: 1
@@ -1339,8 +1339,8 @@ items:
     accuracyAimed: 105
     tuSnap: 35
   - type: STR_HMG
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_HMG_TRACER_CLIP
   - type: STR_HMG_TRACER_CLIP
@@ -1382,8 +1382,8 @@ items:
     handSprite: 2600
     bulletSprite: 3
     bulletSpeed: 4
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     fireSound: [150,151,152]
     reloadSound: 153
     compatibleAmmo:
@@ -1682,8 +1682,8 @@ items:
     listOrder: 34000
   - type: STR_VAR_CANNON
     shotgunChoke: 70
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_VAR_TRACITE_CLIP
       - STR_VAR_FLAK_CLIP
@@ -4901,8 +4901,8 @@ items:
       ToStun: 0.5
     listOrder: 22671
   - type: STR_HEAVY_LASER_MIB
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_HEAVY_LASER_MIB_WV_CLIP
   - type: STR_HEAVY_LASER_MIB_WV_CLIP
@@ -5113,8 +5113,8 @@ items:
       - STR_MUCKSTAR_CANNON_CLIP
       - STR_MUCKSTAR_CANNON_DENSE_CLIP
     accuracyCloseQuarters: 35
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     accuracyAimed: 95
     tuAimed: 33
     tuLoad: 25
@@ -6214,7 +6214,7 @@ items:
     accuracySnap: 35
     accuracyAimed: 65
     accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
       firing: 0.5
     tuSnap: 26
     tuAimed: 66
@@ -6462,20 +6462,20 @@ items:
     attraction: 18
     listOrder: 23193
   - type: STR_LIGHT_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_LC_TRACITE_AMMO
       - STR_LC_ELERIUM_AMMO
   - type: STR_HEAVY_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_HC_TRACITE_AMMO
       - STR_HC_ELERIUM_AMMO
   - type: STR_AUTO_CANNON
-    accuracyMultiplier:
-      strength: *HeavyWeaponStrenghtMultiplier
+    # accuracyMultiplier:
+      # strength: *HeavyWeaponStrenghtMultiplier
     compatibleAmmo: !add
       - STR_AC_TRACITE_AMMO
       - STR_AC_ELERIUM_AMMO
@@ -9820,7 +9820,7 @@ items:
     tuSnap: 70
     accuracyMultiplier:
       firing: &AntiTankFiringAccuracyBonus [0.0, 0.005]
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 15
     aimRange: 40
@@ -10026,7 +10026,7 @@ items:
     tuSnap: 70
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 12
     aimRange: 35
@@ -10184,7 +10184,7 @@ items:
     tuSnap: 60
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 18
     aimRange: 40
@@ -10286,7 +10286,7 @@ items:
     tuSnap: 60
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 18
     aimRange: 40
@@ -10445,7 +10445,7 @@ items:
     tuSnap: 75
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 18
     aimRange: 44
@@ -10602,7 +10602,7 @@ items:
     tuSnap: 70
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 18
     aimRange: 44
@@ -11258,7 +11258,7 @@ items:
     tuSnap: 48
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
     kneelBonus: 200
     snapRange: 18
     aimRange: 38
@@ -11849,7 +11849,7 @@ items:
     tuSnap: 50
     accuracyMultiplier:
       firing: *AntiTankFiringAccuracyBonus
-      strength: *HeavyWeaponStrenghtMultiplier
+      # strength: *HeavyWeaponStrenghtMultiplier
 #Scoped Magnum
   - type: STR_SCOPED_MAGNUM
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_PISTOLS, STR_SPACE, STR_LAND]
