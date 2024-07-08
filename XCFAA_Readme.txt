@@ -946,3 +946,5 @@ AT Landmine - Lower blast radius, AT RPG-like damage, will possibly include a sc
 NOT IMPLEMENTED YET: 
 Thermite Grenade - Incendiary with high Enviromental damage, will chew through most metal
 Tracite and other versions coming soon 
+Hollow Point Ammo rebalance:
+Hollow Point (HP) and Subsonic Ammunition will now deal more raw damage than their AP/Hypersonic ammo however their armor effectiveness is drastically reduced

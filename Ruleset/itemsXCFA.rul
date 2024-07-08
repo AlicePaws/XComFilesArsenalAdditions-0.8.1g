@@ -527,12 +527,12 @@ items:
     hitSound: 22
     fireSound: [202, 203, 204, 205]
     hitAnimation: 26
-    power: 36
+    power: 43
     damageBonus:
       firing: 0.1
     damageAlter:
       RandomType: 7
-      ArmorEffectiveness: 1.15
+      ArmorEffectiveness: 1.25
       ToStun: 0.5
       ToHealth: 1.2
       ToTime: 0.4
@@ -624,12 +624,12 @@ items:
       firing: 0.05
     damageAlter:
       RandomType: 7
-      ArmorEffectiveness: 1.25
+      ArmorEffectiveness: 1.35
       ToStun: 0.5
       ToHealth: 1.2
       ToTime: 0.4
       ToTile: 0.25
-    power: 40
+    power: 52
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -835,12 +835,12 @@ items:
     hitSound: 22
     fireSound: [202, 203, 204, 205]
     hitAnimation: 26
-    power: 40
+    power: 48
     damageBonus:
       firing: 0.1
     damageAlter:
       RandomType: 7
-      ArmorEffectiveness: 1.15
+      ArmorEffectiveness: 1.25
       ToStun: 0.5
       ToHealth: 1.2
       ToTime: 0.4
@@ -925,12 +925,12 @@ items:
     handSprite: 0
     hitSound: 22
     hitAnimation: 26
-    power: 40
+    power: 46
     damageBonus:
       firing: 0.3
     damageAlter:
       RandomType: 7
-      ArmorEffectiveness: 1.1
+      ArmorEffectiveness: 1.2
       ToStun: 0.5
       ToHealth: 1.2
       ToTime: 0.4
@@ -7693,7 +7693,7 @@ items:
     floorSprite: 4
     hitSound: 13
     hitAnimation: 26
-    power: 37
+    power: 65
     damageType: 1
     damageAlter:
       RandomType: 7
@@ -7701,7 +7701,7 @@ items:
       ToHealth: 1.2
       ToTime: 0.4
       ToTile: 0.25
-      ArmorEffectiveness: 1.35
+      ArmorEffectiveness: 1.45
     clipSize: 7
     costThrow:
       energy: 4
@@ -7758,7 +7758,7 @@ items:
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
-    power: 28 #30
+    power: 36 #30
     damageType: 1
     damageAlter:
       RandomType: 7
@@ -7766,7 +7766,7 @@ items:
       ToHealth: 1.2
       ToTime: 0.4
       ToTile: 0.25
-      ArmorEffectiveness: 1.25
+      ArmorEffectiveness: 1.35
     clipSize: 7
     costThrow:
       energy: 4
@@ -7818,14 +7818,14 @@ items:
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
-    power: 28
+    power: 36
     damageAlter:
       RandomType: 7
       ToStun: 0.5
       ToHealth: 1.2
       ToTime: 0.4
       ToTile: 0.25
-      ArmorEffectiveness: 1.25
+      ArmorEffectiveness: 1.35
     damageType: 1
     clipSize: 10
     costThrow:
