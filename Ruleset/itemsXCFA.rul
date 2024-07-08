@@ -1,4 +1,141 @@
 items:
+  - type: STR_RGO_GRENADE #GRAPHICS NOT DONE/PLAYTEST NOT DONE
+    categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_CONCEALABLE, STR_SPACE, STR_LAND]
+    requiresBuy:
+      - STR_RGO_GRENADE_BUY
+    size: 0.1
+    costBuy: 700
+    costSell: 320
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    bulletSprite: 18
+    handSprite: 1
+    fireSound: 39 #make this a throwing noise?
+    power: 50
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 1.1
+    damageType: 3
+    accuracyAimed: 100
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.0
+      throwing: 1.0
+    costAimed:
+      time: 30
+      energy: 6
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    battleType: 1
+    clipSize: 1
+    blastRadius: 4
+    experienceTrainingMode: 7
+    kneelBonus: 100
+    maxRange: 20
+    arcingShot: true
+    listOrder: 38001
+  - type: STR_RGN_GRENADE #GRAPHICS NOT DONE/PLAYTEST NOT DONE
+    categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_CONCEALABLE, STR_SPACE, STR_LAND]
+    requiresBuy:
+      - STR_RGN_GRENADE_BUY
+    size: 0.1
+    costBuy: 750
+    costSell: 350
+    weight: 4
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    costThrow:
+      energy: 6
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 15
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    blastRadius: 6
+    listOrder: 38002
+  - type: STR_AT_GRENADE #GRAPHICS NOT DONE/PLAYTEST NOT DONE
+    categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_ANTITANK, STR_CONCEALABLE, STR_SPACE, STR_LAND]
+    requiresBuy:
+      - STR_AT_GRENADE_BUY
+    size: 0.1
+    costBuy: 1100
+    costSell: 400
+    weight: 4
+    bigSprite: 19
+    floorSprite: 19
+    bulletSprite: 18
+    handSprite: 1
+    fireSound: 39 #make this a throwing noise?
+    power: 75
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.25
+    damageType: 3
+    accuracyAimed: 100
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.0
+      throwing: 1.0
+    costAimed:
+      time: 32
+      energy: 7
+    costThrow:
+      energy: 7
+      time: 32
+    flatThrow:
+      time: true
+    battleType: 1
+    clipSize: 1
+    blastRadius: 3
+    experienceTrainingMode: 7
+    kneelBonus: 100
+    maxRange: 20
+    arcingShot: true
+    listOrder: 38003
+  - type: STR_AT_LANDMINE #SCRIPT NOT DONE/GRAPHICS NOT DONE/PLAYTEST NOT DONE
+    categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_ANTITANK, STR_GRENADES, STR_UNDERWATER, STR_SPACE, STR_LAND]
+    requiresBuy:
+      - STR_AT_LANDMINE_BUY
+    size: 0.4
+    costBuy: 1200
+    costSell: 500
+    weight: 10
+    bigSprite: 1
+    floorSprite: 1
+    power: 100
+    damageAlter:
+      ArmorEffectiveness: 0.7
+      IgnoreOverKill: false
+      ToTime: 0.35
+      ToArmorPre: 0.35
+    costThrow:
+      energy: 25
+    costPrime:
+      time: 45
+    costUnprime:
+      time: 75
+    primeActionName: STR_PRIME_MINE
+    primeActionMessage: STR_MINE_IS_ACTIVATED
+    unprimeActionName: STR_UNPRIME_MINE
+    unprimeActionMessage: STR_MINE_IS_DEACTIVATED
+    damageType: 3
+    battleType: 5
+    armor: 40
+    blastRadius: 4
+    invWidth: 2
+    invHeight: 1
+    attraction: 15
+    listOrder: 38901
   - type: STR_RPK
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_MACHINE_GUNS, STR_RIFLES, STR_LAND]
     requiresBuy:

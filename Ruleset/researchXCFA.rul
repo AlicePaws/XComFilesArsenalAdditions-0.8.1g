@@ -1,4 +1,56 @@
 research:
+  - name: STR_RGO_GRENADE
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 38001
+  - name: STR_RGO_GRENADE_BUY
+    cost: 2
+    points: 1
+    lookup: STR_RGO_GRENADE
+    dependencies:
+      - STR_EXPLOSIVES_LICENCE
+      - STR_RGO_GRENADE
+    listOrder: 438001
+  - name: STR_RGN_GRENADE
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 38002
+  - name: STR_RGN_GRENADE_BUY
+    cost: 2
+    points: 1
+    lookup: STR_RGN_GRENADE
+    dependencies:
+      - STR_EXPLOSIVES_LICENCE
+      - STR_RGN_GRENADE
+    listOrder: 438002
+  - name: STR_AT_GRENADE
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 38003
+  - name: STR_AT_GRENADE_BUY
+    cost: 2
+    points: 1
+    lookup: STR_AT_GRENADE
+    dependencies:
+      - STR_EXPLOSIVES_LICENCE
+      - STR_AT_GRENADE
+    listOrder: 438003
+  - name: STR_AT_LANDMINE
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 38901
+  - name: STR_AT_LANDMINE_BUY
+    cost: 2
+    points: 1
+    lookup: STR_AT_LANDMINE
+    dependencies:
+      - STR_EXPLOSIVES_LICENCE
+      - STR_AT_LANDMINE
+    listOrder: 438901
   - name: STR_GALIL_ARM_BIG_CLIP_AP_PREQ
     cost: 0
     points: 0

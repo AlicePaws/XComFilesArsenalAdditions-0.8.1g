@@ -934,7 +934,15 @@ Commented out armors crashing on boot
 Replaced bad transparency on backgrounds thanks to gchpaco
 0.8.1g
 Made Heavy Riot Suit's repairable without needing the EXALT Warehouse mission to do so
-Added NSV Machine Gun to Reinforced Red Dawn Boxes 
+Added NSV Machine Gun to Reinforced Red Dawn Boxes
 Removed Tactical Ops Suit armor (redundant)
-Muton UFO mission will stop spawning once succesfuly completed, will also give alien alloys
-Removed heavy weapons strenght bonus 
+Removed heavy weapons strenght bonus
+New explosive weapons: 
+RGO Impact Grenade - Lower blast radius and slightly worse against armor but explodes on impact
+RGN Grenade - Higher blast radius, normal fuse grenade
+Anti Tank Explosive expansion:
+AT Grenade - Lower blast radius, RPG-like damage with much less throwing range
+AT Landmine - Lower blast radius, AT RPG-like damage, will possibly include a script that makes it ONLY trigger against 2x2 units.
+NOT IMPLEMENTED YET: 
+Thermite Grenade - Incendiary with high Enviromental damage, will chew through most metal
+Tracite and other versions coming soon 
