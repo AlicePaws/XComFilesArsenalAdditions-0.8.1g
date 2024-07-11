@@ -4,39 +4,25 @@ items:
     requiresBuy:
       - STR_RGO_GRENADE_BUY
     size: 0.1
-    costBuy: 700
-    costSell: 320
-    weight: 3
+    costBuy: 750
+    costSell: 350
+    weight: 2
     bigSprite: 19
     floorSprite: 19
-    bulletSprite: 18
-    handSprite: 1
-    fireSound: 39 #make this a throwing noise?
     power: 50
+    fuseType: -2
     damageAlter:
       IgnoreOverKill: false
-      ArmorEffectiveness: 1.1
     damageType: 3
-    accuracyAimed: 100
-    accuracyCloseQuarters: 100
-    accuracyMultiplier:
-      firing: 0.0
-      throwing: 1.0
-    costAimed:
-      time: 30
-      energy: 6
     costThrow:
       energy: 6
-      time: 30
-    flatThrow:
-      time: true
-    battleType: 1
-    clipSize: 1
+    costPrime:
+      time: 25 #30
+    costUnprime:
+      time: 12 #15
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
     blastRadius: 4
-    experienceTrainingMode: 7
-    kneelBonus: 100
-    maxRange: 20
-    arcingShot: true
     listOrder: 38001
   - type: STR_RGN_GRENADE #GRAPHICS NOT DONE/PLAYTEST NOT DONE
     categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_CONCEALABLE, STR_SPACE, STR_LAND]
@@ -49,6 +35,7 @@ items:
     bigSprite: 19
     floorSprite: 19
     power: 50
+    fuseType: 0
     damageAlter:
       IgnoreOverKill: false
     damageType: 3
@@ -67,40 +54,29 @@ items:
     requiresBuy:
       - STR_AT_GRENADE_BUY
     size: 0.1
-    costBuy: 1100
-    costSell: 400
-    weight: 4
+    costBuy: 4000
+    costSell: 2500
+    weight: 5
     bigSprite: 19
     floorSprite: 19
-    bulletSprite: 18
-    handSprite: 1
-    fireSound: 39 #make this a throwing noise?
     power: 75
+    fuseType: -2
     damageAlter:
       IgnoreOverKill: false
       ArmorEffectiveness: 0.8
       ToArmorPre: 0.25
     damageType: 3
-    accuracyAimed: 100
-    accuracyCloseQuarters: 100
-    accuracyMultiplier:
-      firing: 0.0
-      throwing: 1.0
-    costAimed:
-      time: 32
-      energy: 7
     costThrow:
-      energy: 7
-      time: 32
-    flatThrow:
-      time: true
-    battleType: 1
-    clipSize: 1
+      energy: 8
+    costPrime:
+      time: 40 #30
+    costUnprime:
+      time: 20 #15
+    unprimeActionName: STR_UNPRIME_GRENADE
+    invWidth: 1
+    invHeight: 2
+    battleType: 4
     blastRadius: 3
-    experienceTrainingMode: 7
-    kneelBonus: 100
-    maxRange: 20
-    arcingShot: true
     listOrder: 38003
   - type: STR_AT_LANDMINE #SCRIPT NOT DONE/GRAPHICS NOT DONE/PLAYTEST NOT DONE
     categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_ANTITANK, STR_GRENADES, STR_UNDERWATER, STR_SPACE, STR_LAND]
@@ -11636,9 +11612,10 @@ items:
     bigSprite: 345 #get a new sprite soon please
     floorSprite: 329
     power: 50 #make sure this matches the actual item!
-    hidePower: true
-    spawnUnit: STR_PROXIMITY_TEST
-    spawnUnitFaction: 1
+    #hidePower: true
+    # spawnItem: STR_PROXIMITY_TEST
+    spawnItem: STR_BLACKOPS_SMART_LAUNCHER_PROXY_GRENADE
+    # spawnUnitFaction: 1
     damageType: 0
     blastRadius: 0 #4
     clipSize: 6
@@ -11652,6 +11629,30 @@ items:
     invHeight: 1
     armor: 25
     attraction: 16
+    listOrder: 34190 #check this
+  - type: STR_BLACKOPS_SMART_LAUNCHER_PROXY_GRENADE
+    categories: [STR_HUMAN_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_UNDERWATER, STR_SPACE, STR_LAND]
+    requiresBuy:
+      - STR_TROLLIUM
+    size: 0.1
+    weight: 4
+    bigSprite: 345 #get a new sprite soon please
+    floorSprite: 329 #GET A NEW SPRITE 
+    power: 65
+    damageAlter:
+      IgnoreOverKill: false
+      ToTime: 0.15
+    damageType: 3
+    battleType: 5
+    armor: 65
+    fuseType: -3
+    fuseTriggerEvents:
+      proximityExplode: true
+      proximityTrigger: true
+    blastRadius: 4
+    invWidth: 1
+    invHeight: 1
+    attraction: 15
     listOrder: 34190 #check this
   - type: STR_BLACKOPS_SMART_LAUNCHER_IMPACT_HE_CLIP
     nameAsAmmo: (IMPACT HE)
