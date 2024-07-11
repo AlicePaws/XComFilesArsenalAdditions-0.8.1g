@@ -948,3 +948,4 @@ Thermite Grenade - Incendiary with high Enviromental damage, will chew through m
 Tracite and other versions coming soon 
 Hollow Point Ammo rebalance:
 Hollow Point (HP) and Subsonic Ammunition will now deal more raw damage than their AP/Hypersonic ammo however their armor effectiveness is drastically reduced
+BlackOps Scout Rifle has had its TU costs slightly reduced and its snap shot accuracy incrased slightly 

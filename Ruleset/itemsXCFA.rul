@@ -2516,13 +2516,13 @@ items:
       - STR_BLACKOPS_DMR_CLIP
       - STR_BLACKOPS_DMR_AA_CLIP
     accuracyCloseQuarters: 85
-    accuracySnap: 65
+    accuracySnap: 70
     accuracyAimed: 120
     accuracyAuto: 50
-    tuAuto: 44
+    tuAuto: 40
     autoShots: 2
-    tuSnap: 32
-    tuAimed: 64
+    tuSnap: 30
+    tuAimed: 60
     costThrow:
       energy: 20
     battleType: 1
