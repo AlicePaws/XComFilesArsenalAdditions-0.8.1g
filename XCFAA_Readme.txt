@@ -955,6 +955,27 @@ Added NSV Machine Gun to Reinforced Red Dawn Boxes
 Removed Tactical Ops Suit armor (redundant)
 Removed heavy weapons strenght bonus (Huge! back to XCF vanilla!)
 
+Tactical Lightning changelog:
+version: 1.2d
+- Removed floating weird tile
+- Patched to work with X-Com files and X-Com Files additions submod
+version 1.3
+- removed shield slots from 2 to 1
+version 1.4
+- removed the light sources, will now use flare dispensers, light sources actually will make your units so visible its not even funny
+- added Shadowstorm to list of craft that can take you to outer space missions
+- added support for radar upgrades, and restored shield slot
+
+CREDITS:
+I've incorporated the following two submods into XCFAA and patched them accordingly:
+Early Game Weapon Overhaul by Eddie
+https://openxcom.org/forum/index.php/topic,9683.0.html
+Tactical Lightning for OpenXcom by 60mm
+https://openxcom.mod.io/tactical-lightning
+Some sounds from the X-Com X-Files Resound Mod by Ksenni
+https://openxcom.org/forum/index.php/topic,8870.0.html
+I don't own any of these and should the authors wish them to be removed I will comply with their wishes
+
 Content:
 
 Music: 
