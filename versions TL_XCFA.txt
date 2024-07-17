@@ -1,3 +1,4 @@
+Tactical Lightning changelog:
 version: 1.2d
 - Removed floating weird tile
 - Patched to work with X-Com files and X-Com Files additions submod
