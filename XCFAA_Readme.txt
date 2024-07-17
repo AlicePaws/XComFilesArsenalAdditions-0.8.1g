@@ -1,3 +1,18 @@
+THE X-COM FILES ARSENAL ADDITIONS SUBMOD
+by AlicePaws
+
+- What does this mod add?
+A lot! Weapons, Enemies, Missions, Items, Armors, Music, Scripted effects
+- Can I use content from this submod in my mod?
+You can use anything I've made, you don't need to ask permission just  a simple credit is fine
+- I don't like X can I change it? will you get mad? have I wronged the Gods?
+I would love to make modular/toggleable bits of this submod, but unfortunately can't. Instead if you want to change all the values or remove things I've added
+go ahead and do it! I'd even like to know what you did since new or different takes on what I've done is always welcome!
+- Why did you make this?
+Because I am fucking insane and enjoy the Mod alot, it started initially as a learning exercise but it soon spiralled into...well, this : ) 
+- Is this submod on github?
+Yes! https://github.com/AlicePaws/XComFilesArsenalAdditions
+
 CHANGELOG:
 0.3 
 Public release
@@ -939,3 +954,7 @@ Made Heavy Riot Suit's repairable without needing the EXALT Warehouse mission to
 Added NSV Machine Gun to Reinforced Red Dawn Boxes
 Removed Tactical Ops Suit armor (redundant)
 Removed heavy weapons strenght bonus (Huge! back to XCF vanilla!)
+
+Content:
+
+Music: 
