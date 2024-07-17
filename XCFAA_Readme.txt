@@ -933,10 +933,13 @@ Commented out armors crashing on boot
 0.8.1f
 Replaced bad transparency on backgrounds thanks to gchpaco
 0.8.2
-Made Heavy Riot Suit's repairable without needing the EXALT Warehouse mission to do so
-Added NSV Machine Gun to Reinforced Red Dawn Boxes
-Removed Tactical Ops Suit armor (redundant)
-Removed heavy weapons strenght bonus
+Script based Illuminator ("Non lethal" Flares):
+One of the first additions to XCFAA were non combat flares which served purely as illumination, now that the engine has been updated it is possible to ditch this script tomfoolery and just spawn a goddamned flare!
+Illuminator and Flare/Star clips that used scripting before should be much smoother to use (Mortars, Flare Pistol, Mini Mortars and the Carl Gustav) the only sacrifice that was made was the Mortar and C.G had a little "cinematic flare" to them as they also emitted smoke but its honestly for the best
+Script ruleset has been trimmed down a bit
+BlackOps Smart Launcher's Proximity clips will now also spawn a proximity mine and it will reward commendations appropiately!
+Tracite and Elerium versions of Illuminator clips are now available and work similarly, they cannot be fired out of the regular flare pistol as usual
+The vanilla XCF Flare Pistol Clip (The incendiary one) as well as the ones added in this mod will function the same but will additionally also spawn a flare, this makes them do their job as actual flares but do the old damage they use to do
 New explosive weapons: 
 RGO Impact Grenade - Lower blast radius and slightly worse against armor but explodes on impact
 RGN Grenade - Higher blast radius, normal fuse grenade
@@ -949,3 +952,8 @@ Tracite and other versions coming soon
 Hollow Point Ammo rebalance:
 Hollow Point (HP) and Subsonic Ammunition will now deal more raw damage than their AP/Hypersonic ammo however their armor effectiveness is drastically reduced
 BlackOps Scout Rifle has had its TU costs slightly reduced and its snap shot accuracy incrased slightly 
+Fixes n Tweaks: 
+Made Heavy Riot Suit's repairable without needing the EXALT Warehouse mission to do so
+Added NSV Machine Gun to Reinforced Red Dawn Boxes
+Removed Tactical Ops Suit armor (redundant)
+Removed heavy weapons strenght bonus (Huge! back to XCF vanilla!)

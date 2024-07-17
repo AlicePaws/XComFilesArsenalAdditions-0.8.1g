@@ -253,24 +253,6 @@ items:
     tags:
       TTAG_TEARGASSED_VALUE: 100
       TTAG_TEARGASSED_TIME: 3
-  - type: STR_PROXIMITY_MINE_CLIP
-    tags:
-      #PTAG_PROXIMITY_VALUE: 1 #does this item provide proximity mines
-  - type: STR_MORTAR_SHELL_FLARE
-    tags:
-      #ITAG_ILLUMINATION_VALUE: 1 #if this item has the illumination property
-      #ITAG_ILLUMINATION_POWER: 10 #does nothing so far
-      #ITAG_ILLUMINATION_DURATION: 10 #turns this will last before disapearing
-  - type: STR_ILLUMINATOR_CLIP
-    tags:
-      #ITAG_ILLUMINATION_VALUE: 1 #if this item has the illumination property
-      #ITAG_ILLUMINATION_POWER: 6 #does nothing so far
-      #ITAG_ILLUMINATION_DURATION: 6 #turns this will last before disapearing
-  - type: STR_M3_CARL_GUSTAV_STAR_ROUND
-    tags:
-      #ITAG_ILLUMINATION_VALUE: 1
-      #ITAG_ILLUMINATION_POWER: 8 #does nothing so far
-      #ITAG_ILLUMINATION_DURATION: 8 #does nothing so far 
   - type: STR_MORTAR_SHELL_TEARGAS
     tags:
       TTAG_TEARGASSED_VALUE: 100
@@ -297,9 +279,6 @@ items:
       ITEM_RESIST_TYPE_5: 80
       ITEM_MINIMUM_RESIST_TYPE_5: 50
       ITEM_RESIST_SLOT_INDEX: 1
-  - type: STR_LIVING_FLARE_R
-    tags:
-      #ITAG_ILLUMINATION_VALUE: 1
   #- type: STR_EPIC_GOOGLES
     #tags:
       #GTAG_THERMAL_VISION: 1
@@ -331,47 +310,6 @@ armors:
   - type: STR_BLACK_LOTUS_KNIGHT_ARMOR
     tags:
       ARMOR_THE_ONE_PATH_PROFFICIENCY: 20
-  - type: STR_FLARE_ARMOR
-    tags:
-      ITAG_ILLUMINATION_LIVING: 1
-      ITAG_ILLUMINATION_DURATION: 8 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
-  - type: STR_ILLUMINATOR_CLIP_ARMOR
-    tags:
-      ITAG_ILLUMINATION_LIVING: 1
-      ITAG_ILLUMINATION_DURATION: 8 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
-  - type: STR_MINI_MORTAR_SHELL_FLARE_ARMOR
-    tags:
-      ITAG_ILLUMINATION_LIVING: 1
-      ITAG_ILLUMINATION_DURATION: 10 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
-  # - type: STR_CRAFT_FLARE_ARMOR
-    # tags:
-      # ITAG_ILLUMINATION_LIVING: 1
-      # ITAG_ILLUMINATION_DURATION: 10 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      # TAG_IS_INVISIBLE: 1
-      # TAG_IS_IGNORED: 1
-  - type: STR_M3_CARL_GUSTAV_STAR_ROUND_ARMOR
-    tags:
-      ITAG_ILLUMINATION_LIVING: 1
-      ITAG_ILLUMINATION_DURATION: 12 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
-  - type: STR_MORTAR_SHELL_FLARE_ARMOR
-    tags:
-      ITAG_ILLUMINATION_LIVING: 1
-      ITAG_ILLUMINATION_DURATION: 14 #lets pretend this value is obtained from the ammo, don't know how to do it yet, would need a "unitHasShot event" or something
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
-  - type: STR_PROXIMITY_ARMOR
-    tags:
-      PTAG_PROXIMITY_LIVING: 1
-      TAG_IS_INVISIBLE: 1
-      TAG_IS_IGNORED: 1
   - type: STR_CRAFT_FLARE_TURRET_ARMOR
     tags:
       TAG_IS_INVISIBLE: 1
@@ -2000,58 +1938,6 @@ extended:
             end;
           return;
     createUnit:
-      - offset: 0.5
-        code: |
-          var int flareLivingTag;
-          var int proximityLivingTag;
-          var int illuminationDuration;
-          var ptr RuleArmor armorUnit;
-          var int currTurn;
-          var int currSide;
-          var ptr RuleItem ruleItem;
-          var ptre BattleItem smokeItem;
-          var ptre BattleItem flareItem;
-          var ptre BattleItem proxyItem;
-          var ptre BattleItem flareRightHand;
-          var ptre BattleItem flareLeftHand;
-          unit.getRuleArmor armorUnit;
-          armorUnit.getTag flareLivingTag Tag.ITAG_ILLUMINATION_LIVING;
-          armorUnit.getTag illuminationDuration Tag.ITAG_ILLUMINATION_DURATION;
-          armorUnit.getTag proximityLivingTag Tag.PTAG_PROXIMITY_LIVING;
-          if and eq flareLivingTag 1 eq currSide 0;
-            unit.getInventoryItem smokeItem 3;
-            unit.getInventoryItem flareItem 2;
-
-            unit.getRightHandWeapon flareRightHand;
-            unit.getLeftHandWeapon flareLeftHand;
-
-            # debug_log illuminationDuration;
-            mul illuminationDuration 2; #compensating
-            # debug_log flareItem;
-            # debug_log smokeItem;
-            flareItem.setFuseEnabled 1;
-            flareItem.setFuseTimer illuminationDuration;
-
-            flareLeftHand.setFuseEnabled 1;
-            flareLeftHand.setFuseTimer illuminationDuration;
-            flareRightHand.setFuseEnabled 1;
-            flareRightHand.setFuseTimer illuminationDuration;
-
-            smokeItem.setFuseEnabled 1;
-            smokeItem.setFuseTimer 0;
-            # debug_log "This armor has a flare value CREATEUNIT VERSION ";
-            unit.addStun 25;
-            unit.disableIndicators;
-          else and eq proximityLivingTag 1 eq currSide 0;
-            unit.getInventoryItem proxyItem 0;
-            # debug_log proxyItem;
-            proxyItem.setFuseEnabled 1;
-            proxyItem.setFuseTimer 0;
-            # debug_log "This armor has a proxy value CREATEUNIT VERSION ";
-            unit.addStun 25;
-            unit.disableIndicators;
-          end;
-          return;
         #*** Sets the frequency and offset for periodic unit recolors for buffs and debuffs ***
       - offset: 1
         code: |
@@ -2723,83 +2609,6 @@ extended:
 
           return bonus;
     newTurnUnit:
-      - offset: 1.5
-        code: |
-          var int flareLivingTag;
-          var int proximityLivingTag;
-          var ptr RuleArmor armorUnit;
-          var ptre BattleItem itemLeftHand;
-          var ptre BattleItem itemRightHand;
-          var ptre BattleItem itemInventory;
-
-          var int currTurn;
-          var int currSide;
-          var int stunApplied;
-          #debug_log "This is newTurnUnit!";
-          unit.getRuleArmor armorUnit;
-          armorUnit.getTag flareLivingTag Tag.ITAG_ILLUMINATION_LIVING;
-          armorUnit.getTag proximityLivingTag Tag.PTAG_PROXIMITY_LIVING;
-          if eq flareLivingTag 1;
-            battle_game.getTurn currTurn;
-            battle_game.getTurnSide currSide;
-            # debug_log currTurn;
-            # debug_log currSide;
-            # debug_log "Above was currTurn and currSide";
-
-            # debug_log "This armor has a flare value NEWTURNUNIT EDITION";
-            
-            unit.getLeftHandWeapon itemLeftHand;
-            unit.getRightHandWeapon itemRightHand;
-            unit.getInventoryItem itemInventory 0;
-            # debug_log "This is item inventory 0";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 1;
-            # debug_log "This is item inventory 1";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 2;
-            # debug_log "This is item inventory 2";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 3;
-            # debug_log "This is item inventory 3";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 4;
-            # debug_log "This is item inventory 4";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 5;
-            # debug_log "This is item inventory 5";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 6;
-            # debug_log "This is item inventory 6";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 7;
-            # debug_log "This is item inventory 7";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 8;
-            # debug_log "This is item inventory 8";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 9;
-            # debug_log "This is item inventory 9";
-            # debug_log itemInventory;
-            unit.getInventoryItem itemInventory 10;
-            # debug_log "This is item inventory 10";
-            # debug_log itemInventory;
-            
-            if neq currSide 0;
-              unit.setHealth -1;
-            end;
-          else eq proximityLivingTag 1;
-            battle_game.getTurn currTurn;
-            battle_game.getTurnSide currSide;
-            # debug_log currTurn;
-            # debug_log currSide;
-            # debug_log "Above was currTurn and currSide";
-
-            # debug_log "This armor has a proxy value NEWTURNUNIT EDITION";
-            if neq currSide 0;
-              unit.setHealth -1;
-            end;
-          end;
-          return;
       - offset: 1
         code: |
           var int berserkerTag;

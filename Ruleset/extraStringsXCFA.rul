@@ -70,6 +70,7 @@ extraStrings:
       STR_ALLOY_FLARE_PISTOL_CLIP: "Tracite Flare"
       STR_ALLOY_FLARE_PISTOL_UFOPEDIA: "A tritanium reinforced frame provides this gun an improvement to the handling and range compared to the regular flare gun. It can also withstand hotter temperatures, enabling the use of our newly developed Tracite compound.{NEWLINE}>Concealable"
       STR_ALLOY_FLARE_PISTOL: "Alloy Flare Pistol"
+      STR_ALLOY_FLARE_PISTOL_CONT: "Alloy Flare Pistol (Continued)"
       STR_TRACITE: "Tracite"
       STR_TRACITE_UFOPEDIA: "We've refined the Alien Fuel Traces into a far more reactive compound that when subjected to impact or heat will ignite with a bright cyan flame, we've named this new compound Tracite."
       STR_LASER_MACHINE_PISTOL_MIB: "Laser Machine Pistol"

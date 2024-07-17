@@ -1440,6 +1440,11 @@ ufopaedia:
     text: STR_ALLOY_FLARE_PISTOL_UFOPEDIA
     requires:
       - STR_ALLOY_FLARE_PISTOL
+    pages:
+      - title: STR_ALLOY_FLARE_PISTOL
+        text: STR_ALLOY_FLARE_PISTOL_UFOPEDIA
+      - title: STR_ALLOY_FLARE_PISTOL_CONT
+        text: STR_ALLOY_FLARE_PISTOL_UFOPEDIA
     listOrder: 34471
   - id: STR_ALLOY_ASSAULT_PISTOL
     type_id: 4

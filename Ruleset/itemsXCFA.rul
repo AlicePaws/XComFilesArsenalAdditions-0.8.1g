@@ -2362,8 +2362,9 @@ items:
     floorSprite: 2
     hidePower: true
     power: 0
-    spawnUnit: STR_MINI_MORTAR_STAR #dont think I need a custom one
-    spawnUnitFaction: 1
+    # spawnUnit: STR_MINI_MORTAR_STAR #dont think I need a custom one
+    # spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE_ELERIUM
     damageType: 2
     blastRadius: 0
     clipSize: 2
@@ -4735,6 +4736,8 @@ items:
       - STR_ALLOY_FLARE_PISTOL_CLIP
       - STR_FLARE_PISTOL_CLIP
       - STR_ILLUMINATOR_CLIP
+      - STR_ILLUMINATOR_TRACE_CLIP
+      - STR_ILLUMINATOR_ELERIUM_CLIP
     accuracyCloseQuarters: 133
     accuracyAimed: 45
     tuAimed: 28
@@ -4764,6 +4767,8 @@ items:
       - STR_ALLOY_FLARE_PISTOL_CLIP
       - STR_FLARE_PISTOL_CLIP
       - STR_ILLUMINATOR_CLIP
+      - STR_ILLUMINATOR_TRACE_CLIP
+      - STR_ILLUMINATOR_ELERIUM_CLIP
       - STR_STURMPISTOLE_INC_CLIP
       - STR_STURMPISTOLE_HE_CLIP
       - STR_STURMPISTOLE_SMOKE_CLIP
@@ -4800,6 +4805,8 @@ items:
       - STR_ALLOY_FLARE_PISTOL_CLIP
       - STR_FLARE_PISTOL_CLIP
       - STR_ILLUMINATOR_CLIP
+      - STR_ILLUMINATOR_TRACE_CLIP
+      - STR_ILLUMINATOR_ELERIUM_CLIP
       - STR_STURMPISTOLE_INC_CLIP
       - STR_STURMPISTOLE_HE_CLIP
       - STR_STURMPISTOLE_SMOKE_CLIP
@@ -4820,8 +4827,10 @@ items:
     listOrder: 34471
   - type: STR_FLARE_PISTOL_CLIP
     nameAsAmmo: (INCENDIARY)
+    spawnItem: STR_HARMLESS_FLARE
     listOrder: 34461
   - type: STR_ALLOY_FLARE_PISTOL_CLIP
+    spawnItem: STR_HARMLESS_FLARE_TRACE
     nameAsAmmo: (ALLOY|INCENDIARY)
     categories: [STR_PISTOLS, STR_HUMAN_TECH, STR_INCENDIARIES, STR_CONCEALABLE, STR_SPORTS, STR_BEACH, STR_CLIPS, STR_SPACE, STR_LAND]
     size: 0.1
@@ -4857,8 +4866,9 @@ items:
     floorSprite: 2
     hidePower: true
     power: 0
-    spawnUnit: STR_ILLUMINATOR_FLARE
-    spawnUnitFaction: 1
+    #spawnUnit: STR_ILLUMINATOR_FLARE
+    #spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE
     damageType: 2
     blastRadius: 0
     clipSize: 1
@@ -4872,6 +4882,137 @@ items:
     invHeight: 1
     armor: 25
     attraction: 16
+    listOrder: 34462 #check this
+  - type: STR_ILLUMINATOR_TRACE_CLIP
+    nameAsAmmo: (TRACE|ILLUMINATOR)
+    categories: [STR_PISTOLS, STR_HUMAN_TECH, STR_FLARE, STR_CONCEALABLE, STR_SPORTS, STR_BEACH, STR_CLIPS, STR_SPACE, STR_LAND]
+    size: 0.1
+    requiresBuy:
+      - STR_SHARE_TRACITE_TECH
+    costBuy: 1000
+    costSell: 700
+    weight: 2
+    bigSprite: 293 #get a new sprite soon please
+    floorSprite: 2
+    hidePower: true
+    power: 0
+    spawnItem: STR_HARMLESS_FLARE_TRACE
+    damageType: 2
+    blastRadius: 0
+    clipSize: 1
+    battleType: 2
+    costThrow:
+      energy: 12
+      time: 30
+    flatThrow:
+      time: true
+    invWidth: 1
+    invHeight: 1
+    armor: 25
+    attraction: 16
+    listOrder: 34463 #check this
+  - type: STR_ILLUMINATOR_ELERIUM_CLIP
+    nameAsAmmo: (E-115|ILLUMINATOR)
+    categories: [STR_PISTOLS, STR_HUMAN_TECH, STR_FLARE, STR_CONCEALABLE, STR_SPORTS, STR_BEACH, STR_CLIPS, STR_SPACE, STR_LAND]
+    size: 0.1
+    requiresBuy:
+      - STR_SHARE_ELERIUM_EXPLOSIVES_TECH
+    costBuy: 5000
+    costSell: 3500
+    weight: 2
+    bigSprite: 293 #get a new sprite soon please
+    floorSprite: 2
+    hidePower: true
+    power: 0
+    spawnItem: STR_HARMLESS_FLARE_ELERIUM
+    damageType: 2
+    blastRadius: 0
+    clipSize: 1
+    battleType: 2
+    costThrow:
+      energy: 12
+      time: 30
+    flatThrow:
+      time: true
+    invWidth: 1
+    invHeight: 1
+    armor: 25
+    attraction: 16
+    listOrder: 34464 #check this
+  - type: STR_HARMLESS_FLARE
+    categories: [STR_CORPSES]
+    requiresBuy:
+      - STR_TROLLIUM
+    size: 0.1
+    weight: 3
+    bigSprite: 179 #get a new sprite soon please
+    floorSprite: 100 #GET A NEW SPRITE 
+    power: 16
+    damageAlter:
+      IgnoreOverKill: false
+      ToTime: 0
+      ToHealth: 0
+      ToArmor: 0
+    damageType: 3
+    battleType: 10
+    armor: 65
+    fuseType: -3
+    fuseTriggerEvents:
+      defaultBehavior: true
+    invWidth: 1
+    invHeight: 1
+    hiddenOnMinimap: true
+    attraction: 15
+    listOrder: 34462 #check this
+  - type: STR_HARMLESS_FLARE_TRACE
+    categories: [STR_CORPSES]
+    requiresBuy:
+      - STR_TROLLIUM
+    size: 0.1
+    weight: 3
+    bigSprite: 179 #get a new sprite soon please
+    floorSprite: 100 #GET A NEW SPRITE 
+    power: 19
+    damageAlter:
+      IgnoreOverKill: false
+      ToTime: 0
+      ToHealth: 0
+      ToArmor: 0
+    damageType: 3
+    battleType: 10
+    armor: 65
+    fuseType: -3
+    fuseTriggerEvents:
+      defaultBehavior: true
+    invWidth: 1
+    invHeight: 1
+    hiddenOnMinimap: true
+    attraction: 15
+    listOrder: 34462 #check this
+  - type: STR_HARMLESS_FLARE_ELERIUM
+    categories: [STR_CORPSES]
+    requiresBuy:
+      - STR_TROLLIUM
+    size: 0.1
+    weight: 3
+    bigSprite: 179 #get a new sprite soon please
+    floorSprite: 100 #GET A NEW SPRITE 
+    power: 26
+    damageAlter:
+      IgnoreOverKill: false
+      ToTime: 0
+      ToHealth: 0
+      ToArmor: 0
+    damageType: 3
+    battleType: 10
+    armor: 65
+    fuseType: -3
+    fuseTriggerEvents:
+      defaultBehavior: true
+    invWidth: 1
+    invHeight: 1
+    hiddenOnMinimap: true
+    attraction: 15
     listOrder: 34462 #check this
   - type: STR_BLASTER_MULTI_BOMB
     listOrder: 34451
@@ -7409,8 +7550,9 @@ items:
     hitAnimation: 26 #fix this
     power: 0
     hidePower: true
-    spawnUnit: STR_MINI_MORTAR_STAR #maybe change size?
-    spawnUnitFaction: 1
+    # spawnUnit: STR_MINI_MORTAR_STAR #maybe change size?
+    # spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE_TRACE
     damageType: 2
     battleType: 2
     blastRadius: 0
@@ -7440,8 +7582,9 @@ items:
     hitAnimation: 26 #fix this
     power: 0
     hidePower: true
-    spawnUnit: STR_MINI_MORTAR_STAR #maybe change size?
-    spawnUnitFaction: 1
+    # spawnUnit: STR_MINI_MORTAR_STAR #maybe change size?
+    # spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE_TRACE
     damageType: 2
     battleType: 2
     blastRadius: 0
@@ -7571,8 +7714,9 @@ items:
     hitAnimation: 26 #fix this
     power: 0
     hidePower: true
-    spawnUnit: STR_MORTAR_STAR
-    spawnUnitFaction: 1
+    # spawnUnit: STR_MORTAR_STAR
+    # spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE_ELERIUM
     damageType: 2
     battleType: 2
     blastRadius: 0
@@ -10819,315 +10963,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 47311
-#spawn UAV
-#flare test
-  - &STR_LIVING_FLARE_R
-    type: STR_LIVING_FLARE_R
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179 #179
-    floorSprite: 100 #100
-    handSprite: 0
-    power: 16 #15 electro, 18 tracite, 25000
-    costThrow:
-      energy: 14
-    battleType: 10
-    armor: 30
-    listOrder: 46287
-    fuseType: -8
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    listOrder: 46261
-    fixedWeapon: true
-    hiddenOnMinimap: true
-    isExplodingInHands: true 
-  - type: STR_LIVING_FLARE_L
-    refNode: *STR_LIVING_FLARE_R 
-  - type: STR_LIVING_FLARE_I
-    refNode: *STR_LIVING_FLARE_R 
-    defaultInventorySlot: STR_GROUND #testing!
-    fixedWeapon: false
-  - type: STR_LIVING_FLARE_SMOKE_I
-    refNode: *STR_LIVING_FLARE_R
-    hitAnimation: 168
-    power: 30
-    battleType: 4
-    damageType: 9
-    blastRadius: 1
-    fuseType: 0
-    fixedWeapon: false
-    defaultInventorySlot: STR_GROUND #testing!
-    damageAlter:
-      ToItem: 0
-  - type: STR_LIVING_MINI_MORTAR_SHELL_FLARE_R
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -10
-    power: 18
-  - type: STR_LIVING_MINI_MORTAR_SHELL_FLARE_L
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -10
-    power: 18
-  - type: STR_LIVING_MINI_MORTAR_SHELL_FLARE_I
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -10
-    power: 18
-    defaultInventorySlot: STR_GROUND #testing!
-    fixedWeapon: false
-  - type: STR_LIVING_MINI_MORTAR_SHELL_SMOKE_I
-    refNode: *STR_LIVING_FLARE_R
-    hitAnimation: 168
-    power: 35
-    battleType: 4
-    damageType: 9
-    blastRadius: 2
-    fuseType: 0
-    fixedWeapon: false
-    defaultInventorySlot: STR_GROUND #testing!
-    damageAlter:
-      ToItem: 0
-  - type: STR_LIVING_MORTAR_SHELL_FLARE_R
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -14
-    power: 25
-  - type: STR_LIVING_MORTAR_SHELL_FLARE_L
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -14
-    power: 25
-  - type: STR_LIVING_MORTAR_SHELL_FLARE_I
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -14
-    power: 25
-    defaultInventorySlot: STR_GROUND #testing!
-    fixedWeapon: false
-  - type: STR_LIVING_MORTAR_SHELL_SMOKE_I
-    refNode: *STR_LIVING_FLARE_R
-    hitAnimation: 168
-    power: 60
-    battleType: 4
-    damageType: 9
-    blastRadius: 3
-    fuseType: 0
-    fixedWeapon: false
-    defaultInventorySlot: STR_GROUND #testing!
-    damageAlter:
-      ToItem: 0
-  - type: STR_LIVING_M3_CARL_GUSTAV_FLARE_L
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -12
-    power: 20
-  - type: STR_LIVING_M3_CARL_GUSTAV_FLARE_R
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -12
-    power: 20
-  - type: STR_LIVING_M3_CARL_GUSTAV_FLARE_I
-    refNode: *STR_LIVING_FLARE_R 
-    fuseType: -12
-    power: 20
-    defaultInventorySlot: STR_GROUND #testing!
-    fixedWeapon: false
-  - type: STR_LIVING_M3_CARL_GUSTAV_SMOKE_I
-    refNode: *STR_LIVING_FLARE_R
-    hitAnimation: 168
-    power: 45
-    battleType: 4
-    damageType: 9
-    blastRadius: 3
-    fuseType: 0
-    fixedWeapon: false
-    defaultInventorySlot: STR_GROUND #testing!
-    damageAlter:
-      ToItem: 0
-  - type: STR_LIVING_PROXIMITY_I
-    refNode: *STR_LIVING_FLARE_R
-    hitAnimation: 0
-    floorSprite: 21
-    power: 50
-    hitSound: 0
-    damageAlter:
-      ToTime: 0.20
-    battleType: 4
-    damageType: 3
-    blastRadius: 3
-    fuseType: -2
-    fixedWeapon: false
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-      proximityExplode: true
-    isExplodingInHands: false
-    defaultInventorySlot: STR_GROUND #testing!
-  - type: STR_LIVING_FLARE
-    categories: [STR_CORPSES]
-    name: STR_FLARE
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    floorSprite: 100
-    handSprite: 0
-    costThrow:
-      energy: 14
-    battleType: 11
-    armor: 30
-    listOrder: 46287
-    recover: false
-    hiddenOnMinimap: true
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    listOrder: 46263
-#flare test
-  - type: STR_LIVING_MINI_FLARE_R
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    floorSprite: 100
-    handSprite: 0
-    power: 10 #15 electro, 18 tracite, 25000
-    costThrow:
-      energy: 14
-    battleType: 10
-    armor: 30
-    listOrder: 46287
-    fuseType: -3
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    listOrder: 46261
-    fixedWeapon: true
-    hiddenOnMinimap: true
-    defaultInventorySlot: STR_RIGHT_HAND
-  - type: STR_LIVING_MINI_FLARE_L
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    floorSprite: 100
-    handSprite: 0
-    power: 10 #15   , 18 tracite, 25000
-    costThrow:
-      energy: 14
-    battleType: 10
-    armor: 30
-    listOrder: 46287
-    fuseType: -3
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    listOrder: 46261
-    fixedWeapon: true
-    hiddenOnMinimap: true
-    defaultInventorySlot: STR_LEFT_HAND
-  - type: STR_LIVING_MINI_FLARE_I
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    floorSprite: 100
-    handSprite: 0
-    power: 10 #15 electro, 18 tracite, 25000
-    costThrow:
-      energy: 14
-    battleType: 10
-    armor: 100
-    listOrder: 46287
-    fuseType: -1
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    hiddenOnMinimap: true
-    listOrder: 46262
-  - type: STR_LIVING_MINI_FLARE_SMOKE_I
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    hitAnimation: 168
-    floorSprite: 100
-    handSprite: 0
-    power: 40
-    battleType: 4
-    armor: 30
-    damageType: 9
-    blastRadius: 1
-    fuseType: 0
-    damageAlter:
-      ToItem: 0
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    hiddenOnMinimap: true
-    isExplodingInHands: true
-    listOrder: 46262
-  - type: STR_LIVING_MINI_PROXIMITY_I
-    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    hitAnimation: 0
-    floorSprite: 21
-    handSprite: 0
-    power: 30
-    hitSound: 0
-    damageAlter:
-      ToTime: 0.20
-    battleType: 4
-    armor: 30
-    damageType: 3
-    blastRadius: 3
-    fuseType: -2
-    fuseTriggerEvents:
-      defaultBehavior: true
-      throwTrigger: false
-      proximityExplode: true
-    recover: false
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    hiddenOnMinimap: false
-    isExplodingInHands: false
-    listOrder: 46262
-  - type: STR_LIVING_MINI_FLARE
-    categories: [STR_CORPSES]
-    name: STR_FLARE
-    size: 0.1
-    weight: 7
-    bigSprite: 179
-    floorSprite: 100
-    handSprite: 0
-    costThrow:
-      energy: 14
-    battleType: 11
-    armor: 30
-    listOrder: 46287
-    recover: false
-    hiddenOnMinimap: true
-    invWidth: 1
-    invHeight: 1
-    attraction: 1
-    listOrder: 46263
   - type: STR_M72_LAW
     categories: [STR_HUMAN_TECH, STR_LAUNCHERS, STR_HEAVY_WEAPONS, STR_EXPLOSIVES, STR_LAND]
     requiresBuy:
@@ -11211,8 +11046,9 @@ items:
     floorSprite: 2
     power: 0
     hidePower: true
-    spawnUnit: STR_M3_CARL_GUSTAV_STAR
-    spawnUnitFaction: 1
+    # spawnUnit: STR_M3_CARL_GUSTAV_STAR
+    # spawnUnitFaction: 1
+    spawnItem: STR_HARMLESS_FLARE_TRACE
     damageType: 2
     blastRadius: 0
     clipSize: 1
