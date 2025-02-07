@@ -1,12 +1,12 @@
 armors:
   - type: STR_HAZMAT_ARMOR_UC
     damageModifier: &HazmatResists
-      - 1.0 #0 Special  
+      - 1.0 #0 Special
       - 1.0 #1 Kinetic
       - 0.0 #2 Incendiary
       - 1.0 #3 Concussive
-      - 0.7 #4 Laser 
-      - 0.8 #5 Plasma 
+      - 0.7 #4 Laser
+      - 0.8 #5 Plasma
       - 1.0 #6 Stun
       - 0.9 #7 Cutting
       - 0.3 #8 Chemical
@@ -14,7 +14,7 @@ armors:
       - 0.1 #10 EMP
       - 0.6 #11 Electric
       - 1.0 #12
-      - 1.0 #13 
+      - 1.0 #13
       - 0.0 #14 Anti-E-115
       - 1.0 #15
     frontArmor: 12

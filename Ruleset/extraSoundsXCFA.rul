@@ -147,7 +147,7 @@ extraSounds:
       225: Resources/Weapons_Compilation/Resound/minimi.wav
       226: Resources/Weapons_Compilation/Resound/minimi-2.wav
       227: Resources/Weapons_Compilation/Resound/minimir.ogg
-#Human 
+#Human
       1135: Resources/Sounds_Compilation/HumanScreams/MaleScream01.wav
       1136: Resources/Sounds_Compilation/HumanScreams/MaleScream02.wav
       1137: Resources/Sounds_Compilation/HumanScreams/MaleScream03.wav
@@ -210,5 +210,5 @@ extraSounds:
       2497: Resources/Weapons_Compilation/Resound/magmarif-2.wav
       2498: Resources/Weapons_Compilation/Resound/magmarif-3.wav
       2051: Resources/Weapons_Compilation/Resound/magmap.wav
-      2377: Resources/Weapons_Compilation/Resound/Ammo/magmarifaaammo.wav	
+      2377: Resources/Weapons_Compilation/Resound/Ammo/magmarifaaammo.wav
       2209: Resources/Weapons_Compilation/Resound/Explosives/medgasexplosion.wav

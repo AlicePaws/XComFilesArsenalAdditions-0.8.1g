@@ -550,7 +550,7 @@ armors:
       - 1.0 #kinetic 1
       - 0.4 #incendiary 0.4
       - 0.85 #concussive 0.75
-      - 1.1 #laser beam 1.2 
+      - 1.1 #laser beam 1.2
       - 1.0 #plasma 1
       - 0.1 #stun 0.1
       - 0.9 #cutting 0.9
@@ -620,8 +620,8 @@ armors:
     weight: -100
     movementType: 2 #1, check if this doesnt break
     size: 2
-    damageModifier: &HeavytankResists #meant to emulate PowerArmor resists
     overKill: 2.0
+    damageModifier: &HeavytankResists #meant to emulate PowerArmor resists
       - 1.0
       - 1.0
       - 0.3
@@ -640,7 +640,7 @@ armors:
       - 0.0
     stats:
       health: 85
-      time: -10
+      tu: -10
       reactions: -15
       firing: -10
       throwing: -15
@@ -1453,7 +1453,7 @@ armors:
       - TANK_CORPSE_2
       - TANK_CORPSE_3
       - TANK_CORPSE_4
-    corpseGeo: STR_LIGHT_TANK_RIOT_LAUNCHER_RECOVER #FIX THIS 
+    corpseGeo: STR_LIGHT_TANK_RIOT_LAUNCHER_RECOVER #FIX THIS
     visibilityAtDark: 11
     camouflageAtDay: -2
     camouflageAtDark: -2
@@ -1515,7 +1515,7 @@ armors:
       - TANK_CORPSE_2
       - TANK_CORPSE_3
       - TANK_CORPSE_4
-    corpseGeo: STR_LIGHT_TANK_RIOT_LAUNCHER_RECOVER #FIX THIS 
+    corpseGeo: STR_LIGHT_TANK_RIOT_LAUNCHER_RECOVER #FIX THIS
     visibilityAtDark: 11
     camouflageAtDay: -2
     camouflageAtDark: -2
@@ -1830,7 +1830,7 @@ armors:
     overKill: 1.5
     damageModifier: &RiotVestResists
       - 1.0
-      - 0.75	
+      - 0.75
       - 1.2
       - 1.0
       - 1.0
@@ -2382,10 +2382,10 @@ armors:
       M49: ["", "", "M49_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M49_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
       M50: ["", "", "M50_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M50_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
       M51: ["", "", "M51_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M51_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      M49: ["", "", "M52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M52_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      M50: ["", "", "M53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      M51: ["", "", "M54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      M51: ["", "", "M55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      M52: ["", "", "M52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M52_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      M53: ["", "", "M53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      M54: ["", "", "M54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      M55: ["", "", "M55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
       F0: ["", "", "F0_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F0_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
       F1: ["", "", "F1_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F1_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
       F2: ["", "", "F2_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F2_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
@@ -2438,10 +2438,10 @@ armors:
       F49: ["", "", "F49_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F49_HEAD", "", "", "", "F49_HAIR_FRONT", "RIOT_SHIELD"]
       F50: ["", "", "F50_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F50_HEAD", "", "", "", "F50_HAIR_FRONT", "RIOT_SHIELD"]
       F51: ["", "", "F51_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F51_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      F44: ["", "", "F52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      F45: ["", "", "F53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      F46: ["", "", "F54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
-      F47: ["", "", "F55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      F52: ["", "", "F52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      F53: ["", "", "F53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      F54: ["", "", "F54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
+      F55: ["", "", "F55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD"]
     spriteFaceGroup: 6
     spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9
@@ -2544,10 +2544,10 @@ armors:
       M49: ["", "", "M49_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M49_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
       M50: ["", "", "M50_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M50_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
       M51: ["", "", "M51_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M51_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
-      M49: ["", "", "M52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M52_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
-      M50: ["", "", "M53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
-      M51: ["", "", "M54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
-      M51: ["", "", "M55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
+      M52: ["", "", "M52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M52_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
+      M53: ["", "", "M53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M53_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
+      M54: ["", "", "M54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M54_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
+      M55: ["", "", "M55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_M", "RIOT_VEST", "", "M55_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
       F0: ["", "", "F0_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F0_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
       F1: ["", "", "F1_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F1_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
       F2: ["", "", "F2_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F2_HEAD", "", "", "", "RIOT_HELMET", "RIOT_SHIELD_FLASHLIGHT"]
@@ -2600,10 +2600,10 @@ armors:
       F49: ["", "", "F49_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F49_HEAD", "", "", "", "F49_HAIR_FRONT", "RIOT_SHIELD_FLASHLIGHT"]
       F50: ["", "", "F50_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F50_HEAD", "", "", "", "F50_HAIR_FRONT", "RIOT_SHIELD_FLASHLIGHT"]
       F51: ["", "", "F51_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F51_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
-      F49: ["", "", "F52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F52_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
-      F50: ["", "", "F53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F53_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
-      F49: ["", "", "F54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
-      F50: ["", "", "F55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F55_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
+      F52: ["", "", "F52_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F52_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
+      F53: ["", "", "F53_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F53_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
+      F54: ["", "", "F54_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F54_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
+      F55: ["", "", "F55_NUDE", "", "", "", "", "JUMPSUIT_BLUE_F", "RIOT_VEST", "", "F55_HEAD", "", "", "", "", "RIOT_SHIELD_FLASHLIGHT"]
     spriteFaceGroup: 6
     spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9
@@ -2794,7 +2794,7 @@ armors:
     damageModifier: *HeavyTacticalSuitPrototypeResists
     specialWeapon: STR_UNARMED_THUG
     loftempsSet: [ 3 ]
-#EXALT 
+#EXALT
   - type: STR_EXALT_LOGISTICS_ARMOR
     spriteSheet: EXALT_LOGISTICS.PCK
     spriteInv: inventory_EXALT_LOGISTICS
@@ -3188,10 +3188,10 @@ armors:
       M49: ["", "", "M49_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M49_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
       M50: ["", "", "M50_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M50_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
       M51: ["", "", "M51_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M51_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      M49: ["", "", "M52_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M52_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      M50: ["", "", "M53_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M53_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      M51: ["", "", "M54_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      M51: ["", "", "M55_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M55_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      M52: ["", "", "M52_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M52_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      M53: ["", "", "M53_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M53_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      M54: ["", "", "M54_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      M55: ["", "", "M55_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "M55_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
       F0: ["", "", "F0_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F0_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
       F1: ["", "", "F1_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F1_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
       F2: ["", "", "F2_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F2_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
@@ -3244,10 +3244,10 @@ armors:
       F49: ["", "", "F49_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F49_HEAD", "", "", "", "", "F49_HAIR_FRONT"]
       F50: ["", "", "F50_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F50_HEAD", "", "", "", "", "F50_HAIR_FRONT"]
       F51: ["", "", "F51_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F51_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      F44: ["", "", "F52_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      F45: ["", "", "F53_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F53_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      F46: ["", "", "F54_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
-      F47: ["", "", "F55_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F55_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      F52: ["", "", "F52_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      F53: ["", "", "F53_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F53_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      F54: ["", "", "F54_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F54_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
+      F55: ["", "", "F55_NUDE", "", "", "", "", "LIQUIDATOR_ARMOR", "", "", "F55_HEAD", "", "", "", "LIQUIDATOR_HELMET", "LIQUIDATOR_SHIELD"]
     spriteFaceGroup: 6
     spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9

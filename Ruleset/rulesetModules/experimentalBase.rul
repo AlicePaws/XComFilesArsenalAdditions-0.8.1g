@@ -574,7 +574,7 @@
     # markerName: STR_WAREHOUSE_EXALT
     # markerIcon: 7
     # alert: STR_ALERT_WAREHOUSE_CULT #generic
-    # alertBackground: EXALT_BACKGROUND.SCR #CHANGE THIS TO EXALTgeneric default 
+    # alertBackground: EXALT_BACKGROUND.SCR #CHANGE THIS TO EXALTgeneric default
     # alertDescription: STR_WAREHOUSE_EXALT_DESCRIPTION
     # unlockedResearch: STR_EXALT_WAREHOUSE_RAIDED
     # objectiveComplete: ["WAREHOUSE RAIDED", 500]

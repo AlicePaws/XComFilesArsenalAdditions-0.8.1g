@@ -116,8 +116,8 @@ ufos:
       mapDataSets:
         - BLANKS
         - ROADS
-        - URBITS   
-        - URBAN 
+        - URBITS
+        - URBAN
         - CRATES
         - DOORSSEC
         - OSIRON_FINNIK
@@ -175,15 +175,15 @@ ufos:
           length: 20
           items:
             STR_ILLEGAL_REQUISITION_FILES_EXALT:
-              - [27, 16, 0] 
+              - [27, 16, 0]
             STR_AMMO_BOX_REINFORCED:
               - [27, 15, 0]
             STR_GENERIC_CRATE:
-              - [19, 16, 0] 
+              - [19, 16, 0]
               - [19, 17, 0]
-              - [27, 16, 0] 
+              - [27, 16, 0]
               - [27, 17, 0]
-              - [37, 16, 0] 
+              - [37, 16, 0]
               - [37, 17, 0]
           randomizedItems:
               - position: [18, 16, 0]
@@ -231,11 +231,11 @@ ufos:
             STR_AMMO_BOX_REINFORCED:
               - [27, 5, 0]
             STR_GENERIC_CRATE:
-              - [19, 6, 0] 
+              - [19, 6, 0]
               - [19, 7, 0]
-              - [27, 6, 0] 
+              - [27, 6, 0]
               - [27, 7, 0]
-              - [37, 6, 0] 
+              - [37, 6, 0]
               - [37, 7, 0]
           randomizedItems:
               - position: [18, 6, 0]
@@ -296,15 +296,15 @@ ufos:
           length: 20
           items:
             STR_ILLEGAL_REQUISITION_FILES_CHURCH_OF_DAGON:
-              - [27, 16, 0] 
+              - [27, 16, 0]
             STR_AMMO_BOX_REINFORCED:
               - [27, 15, 0]
             STR_GENERIC_CRATE:
-              - [19, 16, 0] 
+              - [19, 16, 0]
               - [19, 17, 0]
-              - [27, 16, 0] 
+              - [27, 16, 0]
               - [27, 17, 0]
-              - [37, 16, 0] 
+              - [37, 16, 0]
               - [37, 17, 0]
           randomizedItems:
               - position: [18, 16, 0]
@@ -352,11 +352,11 @@ ufos:
             STR_AMMO_BOX_REINFORCED:
               - [27, 5, 0]
             STR_GENERIC_CRATE:
-              - [19, 6, 0] 
+              - [19, 6, 0]
               - [19, 7, 0]
-              - [27, 6, 0] 
+              - [27, 6, 0]
               - [27, 7, 0]
-              - [37, 6, 0] 
+              - [37, 6, 0]
               - [37, 7, 0]
           randomizedItems:
               - position: [18, 6, 0]
@@ -417,15 +417,15 @@ ufos:
           length: 20
           items:
             STR_ILLEGAL_REQUISITION_FILES_ZSRR:
-              - [27, 16, 0] 
+              - [27, 16, 0]
             STR_AMMO_BOX_REINFORCED:
               - [27, 15, 0]
             STR_GENERIC_CRATE:
-              - [19, 16, 0] 
+              - [19, 16, 0]
               - [19, 17, 0]
-              - [27, 16, 0] 
+              - [27, 16, 0]
               - [27, 17, 0]
-              - [37, 16, 0] 
+              - [37, 16, 0]
               - [37, 17, 0]
           randomizedItems:
               - position: [18, 16, 0]
@@ -473,11 +473,11 @@ ufos:
             STR_AMMO_BOX_REINFORCED:
               - [27, 5, 0]
             STR_GENERIC_CRATE:
-              - [19, 6, 0] 
+              - [19, 6, 0]
               - [19, 7, 0]
-              - [27, 6, 0] 
+              - [27, 6, 0]
               - [27, 7, 0]
-              - [37, 6, 0] 
+              - [37, 6, 0]
               - [37, 7, 0]
           randomizedItems:
               - position: [18, 6, 0]
@@ -538,15 +538,15 @@ ufos:
           length: 20
           items:
             STR_ILLEGAL_REQUISITION_FILES_BLACK_LOTUS:
-              - [27, 16, 0] 
+              - [27, 16, 0]
             STR_AMMO_BOX_REINFORCED:
               - [27, 15, 0]
             STR_GENERIC_CRATE:
-              - [19, 16, 0] 
+              - [19, 16, 0]
               - [19, 17, 0]
-              - [27, 16, 0] 
+              - [27, 16, 0]
               - [27, 17, 0]
-              - [37, 16, 0] 
+              - [37, 16, 0]
               - [37, 17, 0]
           randomizedItems:
               - position: [18, 16, 0]
@@ -594,11 +594,11 @@ ufos:
             STR_AMMO_BOX_REINFORCED:
               - [27, 5, 0]
             STR_GENERIC_CRATE:
-              - [19, 6, 0] 
+              - [19, 6, 0]
               - [19, 7, 0]
-              - [27, 6, 0] 
+              - [27, 6, 0]
               - [27, 7, 0]
-              - [37, 6, 0] 
+              - [37, 6, 0]
               - [37, 7, 0]
           randomizedItems:
               - position: [18, 6, 0]
@@ -654,7 +654,7 @@ ufos:
         - BLANKS
         - CONVOY
       mapBlocks:
-        - name: CONVOY06 #2 vans 
+        - name: CONVOY06 #2 vans
           width: 50
           length: 10
           items:
@@ -725,7 +725,7 @@ ufos:
         - BLANKS
         - CONVOY
       mapBlocks:
-        - name: CONVOY06 #2 vans 
+        - name: CONVOY06 #2 vans
           width: 50
           length: 10
           items:
@@ -796,7 +796,7 @@ ufos:
         - BLANKS
         - CONVOY
       mapBlocks:
-        - name: CONVOY06 #2 vans 
+        - name: CONVOY06 #2 vans
           width: 50
           length: 10
           items:
@@ -867,7 +867,7 @@ ufos:
         - BLANKS
         - CONVOY
       mapBlocks:
-        - name: CONVOY06 #2 vans 
+        - name: CONVOY06 #2 vans
           width: 50
           length: 10
           items:
@@ -943,7 +943,7 @@ ufos:
           length: 10
           items:
             STR_GENERIC_CRATE:
-              - [22, 8, 0] #22 8 1 
+              - [22, 8, 0] #22 8 1
               - [22, 9, 0] #22 9 1
           randomizedItems:
               - position: [21, 8, 0]
@@ -1016,7 +1016,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1052,7 +1052,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1105,7 +1105,7 @@ ufos:
           length: 10
           items:
             STR_GENERIC_CRATE:
-              - [22, 8, 0] #22 8 1 
+              - [22, 8, 0] #22 8 1
               - [22, 9, 0] #22 9 1
           randomizedItems:
               - position: [21, 8, 0]
@@ -1178,7 +1178,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1214,7 +1214,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1267,7 +1267,7 @@ ufos:
           length: 10
           items:
             STR_GENERIC_CRATE:
-              - [22, 8, 0] #22 8 1 
+              - [22, 8, 0] #22 8 1
               - [22, 9, 0] #22 9 1
           randomizedItems:
               - position: [21, 8, 0]
@@ -1340,7 +1340,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1376,7 +1376,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1429,7 +1429,7 @@ ufos:
           length: 10
           items:
             STR_GENERIC_CRATE:
-              - [22, 8, 0] #22 8 1 
+              - [22, 8, 0] #22 8 1
               - [22, 9, 0] #22 9 1
           randomizedItems:
               - position: [21, 8, 0]
@@ -1502,7 +1502,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]
@@ -1538,7 +1538,7 @@ ufos:
           length: 50
           items:
             STR_GENERIC_CRATE:
-              - [1, 16, 0] 
+              - [1, 16, 0]
               - [2, 16, 0]
           randomizedItems:
               - position: [1, 15, 0]

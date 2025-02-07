@@ -124,7 +124,7 @@ alienRaces:
       - STR_CELATID_TERRORIST
       - STR_MUTON_HEAVY
       - STR_MUTON_BERSERKER
-    retaliationMissionWeights: &StandardRetalWeights #modify this for the new troop project? 
+    retaliationMissionWeights: &StandardRetalWeights #modify this for the new troop project?
       0:
         STR_ALIEN_DOMINATION: 60
         STR_ALIEN_RETALIATION: 30

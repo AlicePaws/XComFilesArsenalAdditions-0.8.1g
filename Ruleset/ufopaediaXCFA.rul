@@ -1234,7 +1234,7 @@ ufopaedia:
 #  - id: STR_M203_SMOKE_CLIP
 #    type_id: 4
 #   section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_M203_SMOKE_CLIP_UFOPEDIA #check if this needs to show up or not 
+#    text: STR_M203_SMOKE_CLIP_UFOPEDIA #check if this needs to show up or not
 #    requires:
 #      - STR_M16GL
 #    listOrder: 21234
@@ -1271,7 +1271,7 @@ ufopaedia:
     text: STR_FG42_UFOPEDIA
     listOrder: 21132
     requires:
-      - STR_FG42    
+      - STR_FG42
   - id: STR_FG42_BIPOD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1807,7 +1807,7 @@ ufopaedia:
     text: STR_AA12_UFOPEDIA
     requires:
       - STR_AA12
-    listOrder: ???
+    # # listOrder: ???
   - id: STR_AA12_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -2121,7 +2121,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_AUTO9_AA_BIG_CLIP
     requires:
-      - STR_AUTO9_AA_CLIP_MANUFACTURING    
+      - STR_AUTO9_AA_CLIP_MANUFACTURING
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_MORTAR
@@ -2419,12 +2419,12 @@ ufopaedia:
   - id: STR_HWP_CANNON_CANISTER_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires: 
+    requires:
       - STR_HWP_CANNON_CANISTER_SHELLS
   - id: STR_HWP_CANNON_AP_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires: 
+    requires:
       - STR_HWP_CANNON_SHELLS
   - id: STR_CAWS_CLIP_DRAGONBREATH
     type_id: 4
@@ -3280,8 +3280,8 @@ ufopaedia:
       - STR_IMPACT_VEST
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_IMPACT_VEST_UFOPEDIA
-    listOrder: ??? #make this close to the other vests
-#BLACK LOTUS fix list orders 
+    # listOrder: ??? #make this close to the other vests
+#BLACK LOTUS fix list orders
   - id: STR_BLACK_LOTUS_KNIGHT
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -3344,7 +3344,7 @@ ufopaedia:
     requires:
       - STR_BLACK_LOTUS_ELITE_FOOTMAN_ARMOR
     listOrder: 150137
-#CHURCH OF DAGON fix list orders 
+#CHURCH OF DAGON fix list orders
   - id: STR_ACOLYTE_OF_DAGON
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -3413,35 +3413,35 @@ ufopaedia:
       - STR_IMPACT_VEST
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_IMPACT_VEST_UFOPEDIA
-    listOrder: ??? #make this close to the other vests
+    # listOrder: ??? #make this close to the other vests
   - id: STR_RIOT_STAB_VEST
     type_id: 4
     requires:
       - STR_RIOT_STAB_VEST_BUY
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_RIOT_STAB_VEST_UFOPEDIA
-    listOrder: ??? #make this close to the other vests
+    # listOrder: ??? #make this close to the other vests
   - id: STR_GASMASK
     type_id: 4
     requires:
       - STR_GASMASK_BUY
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_GASMASK_UFOPEDIA
-    listOrder: ??? #make this close to the other vests
+    # listOrder: ??? #make this close to the other vests
   - id: STR_IMPACT_VEST_SCHEMATICS
     type_id: 4
     requires:
       - STR_IMPACT_VEST_SCHEMATICS
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_IMPACT_VEST_SCHEMATICS_UFOPEDIA
-    listOrder: ???#make this close to the other vests??
+    # listOrder: ???#make this close to the other vests??
   - id: STR_HEAVY_TACTICAL_SUIT_PROTOTYPE_SCHEMATICS
     type_id: 4
     requires:
       - STR_HEAVY_TACTICAL_SUIT_PROTOTYPE_SCHEMATICS
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_TACTICAL_SUIT_PROTOTYPE_SCHEMATICS_UFOPEDIA
-    listOrder: ???
+    # listOrder: ???
   - id: STR_SWAT_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS

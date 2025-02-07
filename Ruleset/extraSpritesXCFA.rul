@@ -64,7 +64,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionsPack/ChurchOfDagon/inventory_ACOLYTE_OF_DAGON.png
-  - type: PROSELYTE_OF_DAGON.PCK    
+  - type: PROSELYTE_OF_DAGON.PCK
     subX: 32
     subY: 40
     width: 256
@@ -158,8 +158,8 @@ extraSprites:
       0: Resources/Armors_Compilation/HeavyRiotSuit/HEAVY_RIOT_SUIT.png
   - type: SPICONS.DAT
     width: 32
-    height: 24  
-    files:  
+    height: 24
+    files:
       112: Resources/UI/SpIcon_Skills.png
   - type: BIGOBS.PCK
     files:
@@ -170,10 +170,10 @@ extraSprites:
       183: Resources/Weapons_Compilation/ArmorWeapons/bigob_RiotCombatShield.png
       184: Resources/Weapons_Compilation/ClassicWeapons/bigob_GlowingJars.png #Change color?
       185: Resources/Weapons_Compilation/ClassicWeapons/bigob_AlloyFlarePistol1.png
-      186: Resources/Weapons_Compilation/ClassicWeapons/bigob_AlloyFlarePistolClip.png #Change color? 
+      186: Resources/Weapons_Compilation/ClassicWeapons/bigob_AlloyFlarePistolClip.png #Change color?
       187: Resources/Weapons_Compilation/ClassicWeapons/bigob_MortarShellTearGas.png
       188: Resources/Weapons_Compilation/BlackOpsWeapons/bigob_BlackopsAutoShotgunFragClip.png
-      189: Resources/Weapons_Compilation/ClassicWeapons/bigob_AN-94.png 
+      189: Resources/Weapons_Compilation/ClassicWeapons/bigob_AN-94.png
       190: Resources/Weapons_Compilation/ClassicWeapons/bigob_AK47_Clip.png
       191: Resources/Weapons_Compilation/ClassicWeapons/bigob_Beretta93R.png
       192: Resources/Weapons_Compilation/ClassicWeapons/bigob_Beretta93RExtendedClip.png #This thing looks so wonky Im so sorry LOL
@@ -802,10 +802,10 @@ extraSprites:
       208: Resources/Weapons_Compilation/ExplosionAnimations/Flame_Skull_exp.png #174 Flame_Skull_exp originally
       216: Resources/Weapons_Compilation/ExplosionAnimations/Infernite_Flames_exp.png #190
       224: Resources/Weapons_Compilation/ExplosionAnimations/Flames_exp.png #403
-      232: Resources/Weapons_Compilation/ExplosionAnimations/Red_Skull_exp.png 
-      240: Resources/Weapons_Compilation/ExplosionAnimations/XCF_Green_Powdery_Skull_exp.png 
-      248: Resources/Weapons_Compilation/ExplosionAnimations/Light_exp.png 
-      256: Resources/Weapons_Compilation/ExplosionAnimations/Triple_Ripple_exp.png 
+      232: Resources/Weapons_Compilation/ExplosionAnimations/Red_Skull_exp.png
+      240: Resources/Weapons_Compilation/ExplosionAnimations/XCF_Green_Powdery_Skull_exp.png
+      248: Resources/Weapons_Compilation/ExplosionAnimations/Light_exp.png
+      256: Resources/Weapons_Compilation/ExplosionAnimations/Triple_Ripple_exp.png
       264: Resources/Weapons_Compilation/ExplosionAnimations/Purple_Slur_Skull_exp.png
       272: Resources/Weapons_Compilation/ExplosionAnimations/Flame_Skull2Outline2.png
       280: Resources/Weapons_Compilation/ExplosionAnimations/Cyan_Skull_exp.png
@@ -895,7 +895,7 @@ extraSprites:
     subY: 40
     width: 512
     height: 480
-    files:  
+    files:
       0: Resources/Tanks_Compilation/Tanks/NEWERTANKStest.png
   - type: NEWERTANKSPLATED.PCK
     subX: 32
