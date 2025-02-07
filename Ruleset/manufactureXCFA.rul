@@ -121,7 +121,7 @@ manufacture:
     requiresBaseFunc: [WORKS]
     requiredItems:
       STR_TRACITE: 1
-      STR_ALIEN_ALLOYS: 4      
+      STR_ALIEN_ALLOYS: 4
     listOrder: 23501
   - name: STR_VAR_FLAK_CLIP
     category: STR_AMMUNITION
@@ -132,7 +132,7 @@ manufacture:
     cost: 6000
     requiresBaseFunc: [WORKS]
     requiredItems:
-      STR_ALIEN_ALLOYS: 8     
+      STR_ALIEN_ALLOYS: 8
     listOrder: 23502
   - name: STR_NSW_AA_CLIP
     category: STR_AMMUNITION
@@ -762,7 +762,7 @@ manufacture:
       STR_ETRACE: 1
     listOrder: 34440
   # - name: STR_LIGHT_TANK_CANNON
-    # category: STR_WEAPON #Check category name later 
+    # category: STR_WEAPON #Check category name later
     # requires:
       # - STR_LIGHT_TANK_CANNON
     # space: 20
@@ -771,7 +771,7 @@ manufacture:
     # requiresBaseFunc: [WORKS]
     # listOrder: 34441
   # - name: STR_LIGHT_TANK_AUTOCANNON
-    # category: STR_WEAPON #Check category name later 
+    # category: STR_WEAPON #Check category name later
     # requires:
       # - STR_LIGHT_TANK_AUTOCANNON
     # space: 20
@@ -834,7 +834,7 @@ manufacture:
     requiresBaseFunc: [WORKS]
     listOrder: 34443
   - name: STR_LIGHT_TANK_MACHINEGUN
-    category: STR_WEAPON #Check category name later 
+    category: STR_WEAPON #Check category name later
     requires:
       - STR_LIGHT_TANK_MACHINEGUN
     space: 10
@@ -862,7 +862,7 @@ manufacture:
     requiresBaseFunc: [WORKS]
     listOrder: 34444
   - name: STR_LIGHT_TANK_RIOT_LAUNCHER
-    category: STR_WEAPON #Check category name later 
+    category: STR_WEAPON #Check category name later
     requires:
       - STR_LIGHT_TANK_RIOT_LAUNCHER
     space: 10
@@ -871,7 +871,7 @@ manufacture:
     requiresBaseFunc: [WORKS]
     listOrder: 34445
   - name: STR_LIGHT_TANK_RIOT_TASER
-    category: STR_WEAPON #Check category name later 
+    category: STR_WEAPON #Check category name later
     requires:
       - STR_LIGHT_TANK_RIOT_TASER
     space: 10
@@ -2686,7 +2686,7 @@ manufacture:
       - [40, {STR_WEAPON_BOX_REINFORCED_ZSRR: 1}]
       - [40, {STR_AMMO_BOX_ZSRR: 3}]
       - [40, {STR_AMMO_BOX_REINFORCED: 2}]
-      - [10, {STR_GOOD_OSIRON_CRATE: 1}]  
+      - [10, {STR_GOOD_OSIRON_CRATE: 1}]
       - [15, {STR_ILLEGAL_REQUISITION_FILES_ZSRR: 1}]
       - [40, {STR_ETRACE: 1}]
       - [40, {STR_ETRACE: 3}]
@@ -2721,7 +2721,7 @@ manufacture:
       - [40, {STR_WEAPON_BOX_REINFORCED_CHURCH_OF_DAGON: 1}]
       - [40, {STR_AMMO_BOX_CHURCH_OF_DAGON: 3}]
       - [40, {STR_AMMO_BOX_REINFORCED: 2}]
-      - [10, {STR_GOOD_OSIRON_CRATE: 1}]  
+      - [10, {STR_GOOD_OSIRON_CRATE: 1}]
       - [15, {STR_ILLEGAL_REQUISITION_FILES_CHURCH_OF_DAGON: 1}]
       - [40, {STR_ETRACE: 1}]
       - [40, {STR_ETRACE: 3}]
@@ -2756,7 +2756,7 @@ manufacture:
       - [40, {STR_WEAPON_BOX_REINFORCED_BLACK_LOTUS: 1}]
       - [40, {STR_AMMO_BOX_BLACK_LOTUS: 3}]
       - [40, {STR_AMMO_BOX_REINFORCED: 2}]
-      - [10, {STR_GOOD_OSIRON_CRATE: 1}]  
+      - [10, {STR_GOOD_OSIRON_CRATE: 1}]
       - [15, {STR_ILLEGAL_REQUISITION_FILES_BLACK_LOTUS: 1}]
       - [40, {STR_ETRACE: 1}]
       - [40, {STR_ETRACE: 3}]
@@ -2791,7 +2791,7 @@ manufacture:
       - [40, {STR_WEAPON_BOX_REINFORCED_EXALT: 1}]
       - [40, {STR_AMMO_BOX_EXALT: 3}]
       - [40, {STR_AMMO_BOX_REINFORCED: 2}]
-      - [10, {STR_GOOD_OSIRON_CRATE: 1}]  
+      - [10, {STR_GOOD_OSIRON_CRATE: 1}]
       - [15, {STR_ILLEGAL_REQUISITION_FILES_EXALT: 1}]
       - [40, {STR_ETRACE: 1}]
       - [40, {STR_ETRACE: 3}]

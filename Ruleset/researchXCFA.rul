@@ -54,7 +54,7 @@ research:
   - name: STR_GALIL_ARM_BIG_CLIP_AP_PREQ
     cost: 0
     points: 0
-    unlocks: 
+    unlocks:
       - STR_GALIL_ARM_CLIP_AP_PREQ
     dependencies:
       - STR_TROLLIUM
@@ -96,7 +96,7 @@ research:
   - name: STR_RPK_DRUM_AP_PREQ
     cost: 0
     points: 0
-    unlocks: 
+    unlocks:
       - STR_RPK_CLIP_AP_PREQ
     dependencies:
       - STR_TROLLIUM
@@ -935,7 +935,7 @@ research:
   - name: STR_USP_9_MM_BIG_CLIP_AP_PREQ
     cost: 0
     points: 0
-    unlocks: 
+    unlocks:
       - STR_USP_9_MM_CLIP_AP_PREQ
     dependencies:
       - STR_TROLLIUM
@@ -974,7 +974,7 @@ research:
   - name: STR_RAFFICA_PISTOL_CLIP_AP_PREQ
     cost: 0
     points: 0
-    unlocks: 
+    unlocks:
       - STR_BERETTA_92FS_CLIP_AP_PREQ
     dependencies:
       - STR_TROLLIUM
@@ -984,7 +984,7 @@ research:
     needItem: true
     unlocks:
       - STR_AP_CLIPS
-    dependencies: 
+    dependencies:
       - STR_RAFFICA_PISTOL
   - name: STR_RAFFICA_PISTOL_CLIP_AP_BUY
     cost: 1
@@ -1011,7 +1011,7 @@ research:
     lookup: STR_AP_CLIPS
     unlocks:
       - STR_AP_CLIPS
-    dependencies: 
+    dependencies:
       - STR_MP
   - name: STR_MP_CLIP_AP_BUY
     cost: 1
@@ -1087,7 +1087,7 @@ research:
   - name: STR_WP_5_45_CLIP_AP_PREQ
     cost: 0
     points: 0
-    dependencies: 
+    dependencies:
       - STR_TROLLIUM
   - name: STR_WP_5_45_CLIP_AP
     cost: 0
@@ -1108,7 +1108,7 @@ research:
   - name: STR_JUDGE_DRAGONBREATH_CLIP_PREQ
     cost: 0
     points: 0
-    dependencies: 
+    dependencies:
       - STR_TROLLIUM
   - name: STR_JUDGE_DRAGONBREATH_CLIP
     cost: 0
@@ -1137,7 +1137,7 @@ research:
     needItem: true
     unlocks:
       - STR_FLECHETTE_CLIPS
-    dependencies: 
+    dependencies:
       - STR_SHOTGUN
   - name: STR_SHOTGUN_FLECHETTE_SHELLS_BUY
     cost: 1
@@ -1201,7 +1201,7 @@ research:
     needItem: true
     unlocks:
       - STR_DRAGONBREATH_CLIPS
-    dependencies: 
+    dependencies:
       - STR_KS23
   - name: STR_KS23_SHELLS_DRAGONBREATH_BUY
     cost: 1
@@ -1222,7 +1222,7 @@ research:
     needItem: true
     unlocks:
       - STR_DRAGONBREATH_CLIPS
-    dependencies: 
+    dependencies:
       - STR_AA12
   - name: STR_AA12_DRAGONBREATH_DRUM_BUY
     cost: 1
@@ -1337,11 +1337,11 @@ research:
       - STR_MILESTONE_3_SUMMARY
       - STR_EXPLOSIVES_LICENCE
       - STR_M82_BARETT_BUY
-      - STR_M82_BARETT_HE_CLIP_PREQ   
+      - STR_M82_BARETT_HE_CLIP_PREQ
   - name: STR_PTRD41_HE_CLIP_PREQ
     cost: 0
     points: 0
-    dependencies: 
+    dependencies:
       - STR_TROLLIUM
   - name: STR_PTRD41_HE_CLIP
     cost: 0
@@ -1408,7 +1408,7 @@ research:
     cost: 0
     points: 0
     needItem: true
-    dependencies: 
+    dependencies:
       - STR_RT20
   - name: STR_RT20_HE_CLIP_BUY
     cost: 1
@@ -1421,7 +1421,7 @@ research:
   - name: STR_M42_CARL_GUSTAV_HE_CLIP_PREQ
     cost: 0
     points: 0
-    dependencies: 
+    dependencies:
       - STR_TROLLIUM
   - name: STR_M42_CARL_GUSTAV_HE_CLIP
     cost: 0
@@ -1562,8 +1562,8 @@ research:
       - STR_FN_FAL_CLIP
     listOrder: 421242
   - name: STR_M16GL
-    cost: 0 
-    points: 0 
+    cost: 0
+    points: 0
     lookup: STR_M16GL #CHECK THIS
     listOrder: 21126
     dependencies:
@@ -1921,7 +1921,7 @@ research:
     cost: 5
     points: 10
     needItem: true
-    listOrder: ???
+    # listOrder: ???
   - name: STR_AA12_BUY
     cost: 2
     points: 1
@@ -1929,7 +1929,7 @@ research:
     dependencies:
       - STR_BUY_EXALT_WEAPONS
       - STR_AA12
-    listOrder: ???
+    # listOrder: ???
   - name: STR_AA12_DRUM_BUY
     cost: 4
     points: 2
@@ -1937,7 +1937,7 @@ research:
     dependencies:
       - STR_AA12_BUY
       - STR_EXALT_HQ
-    listOrder: ???
+    # listOrder: ???
   - name: STR_MANURHIN_REVOLVER
     cost: 3
     points: 3
@@ -2485,7 +2485,7 @@ research:
     requiresBaseFunc: [INTLAB]
     cost: 0
     points: 25
-    unlocks: 
+    unlocks:
       - STR_CULT_MANOR_RAIDED
     dependencies:
       - STR_TROLLIUM
@@ -2494,7 +2494,7 @@ research:
     requiresBaseFunc: [INTLAB]
     cost: 0
     points: 30
-    unlocks: 
+    unlocks:
       - STR_CULT_GREATER_MANOR_RAIDED
     dependencies:
       - STR_TROLLIUM
@@ -2538,7 +2538,7 @@ research:
       - STR_ANY_CULT_HQ
   - name: STR_CHURCH_OF_DAGON_HQ
     unlocks:
-      - STR_ANY_CULT_HQ 
+      - STR_ANY_CULT_HQ
   - name: STR_BLACK_LOTUS_HQ
     unlocks:
       - STR_ANY_CULT_HQ
@@ -2722,7 +2722,7 @@ research:
       - STR_DYNAMITE
       - STR_LANDMINE
       - STR_INCENDIARY_GRENADE
-      - STR_LIGHT_HAND_CANNON  
+      - STR_LIGHT_HAND_CANNON
     getOneFreeProtected:
       STR_FN_FAL:
         - STR_FN_FAL_SCOPED
@@ -2749,7 +2749,7 @@ research:
       - STR_M3_CARL_GUSTAV
       - STR_MODEL_SS41
       - STR_S18_SOLOTHURN_1000
-      - STR_LIGHT_HAND_CANNON 
+      - STR_LIGHT_HAND_CANNON
     listOrder: 47111
   - name: STR_ILLEGAL_REQUISITION_FILES_EXALT
     cost: 1
@@ -2782,7 +2782,7 @@ research:
       - STR_RPG
       - STR_GRENADE_LAUNCHER
       - STR_JUDGE_7
-      - STR_LIGHT_HAND_CANNON 
+      - STR_LIGHT_HAND_CANNON
     getOneFreeProtected:
       STR_JUDGE_7:
         - STR_BLACKOPS_JUDGE
@@ -3206,7 +3206,7 @@ research:
       - STR_AMMO_BOX_CULT
     lookup: STR_AMMO_BOX_CULT
     listOrder: 62139
-#EXALT 
+#EXALT
   - name: STR_WEAPON_BOX_EXALT
     cost: 0
     points: 2
@@ -3549,7 +3549,7 @@ research:
     cost: 0
     points: 150
     dependencies:
-      - STR_TROLLIUM 
+      - STR_TROLLIUM
   - name: STR_CULT_CONVOYS
     cost: 1
     points: 5
@@ -4150,7 +4150,7 @@ research:
     dependencies:
       - STR_SYNDICATE_CHRYSSALID_RESEARCH
       - STR_ZEPHYR_SERUM
-# BLACK LOTUS CONVOYS 
+# BLACK LOTUS CONVOYS
   - name: STR_BLACK_LOTUS_CONVOYS
     cost: 0
     points: 5

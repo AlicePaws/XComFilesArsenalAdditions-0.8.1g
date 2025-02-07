@@ -3892,7 +3892,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_WAREHOUSE_CULT #generic
-    alertBackground: EXALT_BACKGROUND.SCR #CHANGE THIS TO EXALTgeneric default 
+    alertBackground: EXALT_BACKGROUND.SCR #CHANGE THIS TO EXALTgeneric default
     alertDescription: STR_WAREHOUSE_EXALT_DESCRIPTION
     unlockedResearch: STR_EXALT_WAREHOUSE_RAIDED
     objectiveComplete: ["WAREHOUSE RAIDED", 500]
@@ -5921,7 +5921,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_LARGE_CONVOY_CULT #generic
-    alertBackground: CULT_BACKGROUND.SCR #generic default 
+    alertBackground: CULT_BACKGROUND.SCR #generic default
     alertDescription: STR_LARGE_GROUND_CONVOY_CHURCH_OF_DAGON_DESCRIPTION
     unlockedResearch: STR_CHURCH_OF_DAGON_CONVOY_LARGE_INTERCEPTED
     objectiveComplete: ["LARGE CONVOY INTERCEPTED", 400]
@@ -6307,7 +6307,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_SMALL_CONVOY_CULT #generic
-    alertBackground: CULT_BACKGROUND.SCR #generic default 
+    alertBackground: CULT_BACKGROUND.SCR #generic default
     alertDescription: STR_SMALL_GROUND_CONVOY_CHURCH_OF_DAGON_DESCRIPTION
     unlockedResearch: STR_CHURCH_OF_DAGON_CONVOY_SMALL_INTERCEPTED
     objectiveComplete: ["SMALL CONVOY INTERCEPTED", 150]
@@ -6534,7 +6534,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_MEDIUM_CONVOY_CULT #generic
-    alertBackground: CULT_BACKGROUND.SCR #generic default 
+    alertBackground: CULT_BACKGROUND.SCR #generic default
     alertDescription: STR_MEDIUM_GROUND_CONVOY_CHURCH_OF_DAGON_XCFA_DESCRIPTION
     unlockedResearch: STR_CHURCH_OF_DAGON_CONVOY_MEDIUM_INTERCEPTED
     objectiveComplete: ["MEDIUM CONVOY INTERCEPTED", 250]
@@ -6883,7 +6883,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_WAREHOUSE_CULT #generic
-    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default 
+    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default
     alertDescription: STR_WAREHOUSE_ZSRR_DESCRIPTION
     unlockedResearch: STR_ZSRR_WAREHOUSE_RAIDED
     objectiveComplete: ["WAREHOUSE RAIDED", 500]
@@ -7108,7 +7108,7 @@ alienDeployments:
             - STR_LC_BS_AMMO
             - STR_LC_BS_AMMO
             - STR_LC_BS_AMMO
-      - alienRank: 1 #Red Dawn Sailor 
+      - alienRank: 1 #Red Dawn Sailor
         lowQty: 1
         highQty: 2
         dQty: 0
@@ -7426,7 +7426,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_LARGE_CONVOY_CULT #generic
-    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default 
+    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default
     alertDescription: STR_LARGE_GROUND_CONVOY_ZSRR_DESCRIPTION
     unlockedResearch: STR_ZSRR_CONVOY_LARGE_INTERCEPTED
     objectiveComplete: ["LARGE CONVOY INTERCEPTED", 400]
@@ -7873,7 +7873,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_SMALL_CONVOY_CULT #generic
-    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default 
+    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default
     alertDescription: STR_SMALL_GROUND_CONVOY_ZSRR_DESCRIPTION
     unlockedResearch: STR_ZSRR_CONVOY_SMALL_INTERCEPTED
     objectiveComplete: ["SMALL CONVOY INTERCEPTED", 150]
@@ -8106,7 +8106,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_MEDIUM_CONVOY_CULT #generic
-    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default 
+    alertBackground: ZSRR_LADS_BACKGROUND.SCR #generic default
     alertDescription: STR_MEDIUM_GROUND_CONVOY_ZSRR_XCFA_DESCRIPTION
     unlockedResearch: STR_ZSRR_CONVOY_MEDIUM_INTERCEPTED
     objectiveComplete: ["MEDIUM CONVOY INTERCEPTED", 250]
@@ -8452,7 +8452,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_WAREHOUSE_CULT #generic
-    alertBackground: NINJA_BACKGROUND.SCR #generic default 
+    alertBackground: NINJA_BACKGROUND.SCR #generic default
     alertDescription: STR_WAREHOUSE_BLACK_LOTUS_DESCRIPTION
     unlockedResearch: STR_BLACK_LOTUS_WAREHOUSE_RAIDED
     objectiveComplete: ["WAREHOUSE RAIDED", 500]
@@ -8673,7 +8673,7 @@ alienDeployments:
             - STR_ARASAKA_3000_CLIP
             - STR_GOLDEN_DRAGONS
             - STR_ILLEGAL_REQUISITION_FILES_BLACK_LOTUS
-            
+
           -
             - STR_FLAME_GLOVE
             - STR_MACHETE
@@ -8887,7 +8887,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_LARGE_CONVOY_CULT #generic
-    alertBackground: NINJA_BACKGROUND.SCR #generic default 
+    alertBackground: NINJA_BACKGROUND.SCR #generic default
     alertDescription: STR_LARGE_GROUND_CONVOY_BLACK_LOTUS_DESCRIPTION
     unlockedResearch: STR_BLACK_LOTUS_CONVOY_LARGE_INTERCEPTED
     objectiveComplete: ["LARGE CONVOY INTERCEPTED", 400]
@@ -9255,7 +9255,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_SMALL_CONVOY_CULT #generic
-    # alertBackground: NINJA_BACKGROUND.SCR #generic default 
+    # alertBackground: NINJA_BACKGROUND.SCR #generic default
     alertDescription: STR_SMALL_GROUND_CONVOY_BLACK_LOTUS_DESCRIPTION
     unlockedResearch: STR_BLACK_LOTUS_CONVOY_SMALL_INTERCEPTED
     objectiveComplete: ["SMALL CONVOY INTERCEPTED", 150]
@@ -9458,7 +9458,7 @@ alienDeployments:
     length: 50
     height: 6
     alert: STR_ALERT_MEDIUM_CONVOY_CULT #generic
-    alertBackground: NINJA_BACKGROUND.SCR #generic default 
+    alertBackground: NINJA_BACKGROUND.SCR #generic default
     alertDescription: STR_MEDIUM_GROUND_CONVOY_BLACK_LOTUS_XCFA_DESCRIPTION
     unlockedResearch: STR_BLACK_LOTUS_CONVOY_MEDIUM_INTERCEPTED
     objectiveComplete: ["MEDIUM CONVOY INTERCEPTED", 250]

@@ -17,7 +17,7 @@ crafts:
       - [4, 6]
       - [4, 6]
       - [6]
-    weaponStrings: [STR_BEAM, STR_SHADOWSTORM_SLOT, STR_SHADOWSTORM_SLOT, STR_ELECTRONICS] 
+    weaponStrings: [STR_BEAM, STR_SHADOWSTORM_SLOT, STR_SHADOWSTORM_SLOT, STR_ELECTRONICS]
     soldiers: 12 #8 16
     vehicles: 1 #1 2
     pilots: 1
@@ -59,7 +59,7 @@ crafts:
        - [11, 6, 1, 0]
        - [11, 13, 1, 0]
        - [8, 13, 1, 0]
-       
+
 manufacture:
   - name: STR_TACTICAL_LIGHTNING
     category: STR_CRAFT

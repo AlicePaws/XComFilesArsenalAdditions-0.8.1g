@@ -1812,7 +1812,7 @@ items:
     requiresBuy:
       - STR_VAR_CANNON
       - STR_SHARE_TRACITE_TECH
-    monthlyBuyLimit: 6      
+    monthlyBuyLimit: 6
     nameAsAmmo: (TRACITE)
     categories: [STR_XCOM_TECH, STR_FIREARMS, STR_CANNONS, STR_INCENDIARIES, STR_HEAVY_WEAPONS, STR_CLIPS, STR_LAND]
     size: 0.2
@@ -2644,10 +2644,10 @@ items:
     tuSnap: 19 #22
     tuAimed: 48 #62
     tuLoad: 20
-    aimRange: 33 
+    aimRange: 33
     snapRange: 17 #22  More snap range is for things with scopes.
-    # Warzaw pact equivalent of colt commando. 
-    # General opinion of this weapon is not so good. Complains about insufficient accuracy. 
+    # Warzaw pact equivalent of colt commando.
+    # General opinion of this weapon is not so good. Complains about insufficient accuracy.
     # -> Stats weaker than colt commando, especially at range.
   - type: STR_AKSU74
     costBuy: 1600 #3200
@@ -2684,7 +2684,7 @@ items:
     tuAimed: 55 #70
     autoRange: 14 #11
     snapRange: 18 #16
-    # Updated design of ak47, fixed autoshot weakness. 
+    # Updated design of ak47, fixed autoshot weakness.
   - type: STR_AKM
     costBuy: 1500 #2500
     costSell: 1000 #1550
@@ -2902,7 +2902,7 @@ items:
     weight: 5
     bigSprite: 410 #check this
     floorSprite: 395 #check this
-    handSprite: 2520 #check this 
+    handSprite: 2520 #check this
     bulletSprite: 1
     bulletSpeed: 32
     fireSound: [180,181,182,183]
@@ -3264,7 +3264,7 @@ items:
     armor: 30
     attraction: 15
     listOrder: 21100
-    # This gun was severely underpowered. It's a pretty popular gun, no reason why it 
+    # This gun was severely underpowered. It's a pretty popular gun, no reason why it
     # should be bad. Similar to mac10 now, but a little less powerful.
   - type: STR_UZI
     compatibleAmmo: !add
@@ -3288,7 +3288,7 @@ items:
     autoShots: 8 #6     Wiki says fire rate of a micro uzi is 1200
     sprayWaypoints: 2
     # The Kiryu Kai used this weapon, so it should be somewhat good. Made 2x2 and two handed.
-    # Essentially a two-handed uzi that gains 10% accuracy because it is two handed. 
+    # Essentially a two-handed uzi that gains 10% accuracy because it is two handed.
     # Power level similar to an mp5 mid range (15 tiles). Better at close range, worse at long range.
     # Long range similar to a pistol.
   - type: STR_MINEBEA_UZI
@@ -3426,7 +3426,7 @@ items:
     autoRange: 7 #9
     snapRange: 11 #12
     aimRange: 20 #0
-    dropoff: 3 #2 
+    dropoff: 3 #2
     confSnap:
       name: STR_BURST_SNAP
       shots: 3
@@ -3570,7 +3570,7 @@ items:
     bigSprite: 390
     floorSprite: 388
     handSprite: 2480
-    bulletSprite: 5 
+    bulletSprite: 5
     fireSound: 189
     reloadSound: 190
     compatibleAmmo:
@@ -3580,7 +3580,7 @@ items:
       - STR_STURMPISTOLE_HE_CLIP
       - STR_STURMPISTOLE_SMOKE_CLIP
       - STR_STURMPISTOLE_GAS_CLIP
-    accuracyCloseQuarters: 100 #ADJUST THESE STATS PLEASE 
+    accuracyCloseQuarters: 100 #ADJUST THESE STATS PLEASE
     accuracyAimed: 40
     tuAimed: 40
     tuLoad: 12
@@ -3734,7 +3734,7 @@ items:
     fireSound: [166,167,168]
     reloadSound: 171
     twoHanded: true
-    accuracyCloseQuarters: 95 #ADJUST THESE STATS PLEASE 
+    accuracyCloseQuarters: 95 #ADJUST THESE STATS PLEASE
     oneHandedPenalty: 90
     accuracyAuto: 55 #45
     accuracySnap: 80 #75
@@ -3875,7 +3875,7 @@ items:
     fireSound: [166,167,168]
     reloadSound: 171
     twoHanded: true
-    accuracyCloseQuarters: 95 #ADJUST THESE STATS PLEASE 
+    accuracyCloseQuarters: 95 #ADJUST THESE STATS PLEASE
     oneHandedPenalty: 90
     accuracyAuto: 55 #45
     accuracySnap: 80 #75
@@ -3885,7 +3885,7 @@ items:
     tuAimed: 45
     snapRange: 18 #16
     autoRange: 14 #11
-    aimRange: 7 #10, small shotgun is 3 
+    aimRange: 7 #10, small shotgun is 3
     shotgunChoke: 50
     ammo:
       0:
@@ -3959,7 +3959,7 @@ items:
     requiresBuy:
       - STR_TRACITETHROWER
       - STR_SHARE_TRACITE_TECH
-    monthlyBuyLimit: 6      
+    monthlyBuyLimit: 6
     categories: [STR_HUMAN_TECH, STR_INCENDIARIES, STR_HEAVY_WEAPONS, STR_CLIPS, STR_LAND]
     size: 0.2
     costBuy: 15000
@@ -4530,7 +4530,7 @@ items:
     bigSprite: 188
     weight: 0
     invWidth: 2
-    invHeight: 3  
+    invHeight: 3
   - type: STR_BLACKOPS_SMART_AUTO_SHOTGUN_FLECHETTE_SHELLS
     nameAsAmmo: (FLECHETTE)
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS, STR_LAND]
@@ -4763,7 +4763,7 @@ items:
     bulletSprite: 5 #consider a blue fireball?
     fireSound: 189
     reloadSound: 190
-    compatibleAmmo: #add more 
+    compatibleAmmo: #add more
       - STR_ALLOY_FLARE_PISTOL_CLIP
       - STR_FLARE_PISTOL_CLIP
       - STR_ILLUMINATOR_CLIP
@@ -4801,7 +4801,7 @@ items:
     bulletSprite: 5 #consider a blue fireball?
     fireSound: 189
     reloadSound: 190
-    compatibleAmmo: #add more 
+    compatibleAmmo: #add more
       - STR_ALLOY_FLARE_PISTOL_CLIP
       - STR_FLARE_PISTOL_CLIP
       - STR_ILLUMINATOR_CLIP
@@ -4843,7 +4843,7 @@ items:
     power: 45
     damageType: 2
     damageAlter:
-      FireBlastCalc: false 
+      FireBlastCalc: false
       FixRadius: 2
       ToMorale: 20.0
       ToTime: 0.75
@@ -4946,7 +4946,7 @@ items:
     size: 0.1
     weight: 3
     bigSprite: 179 #get a new sprite soon please
-    floorSprite: 100 #GET A NEW SPRITE 
+    floorSprite: 100 #GET A NEW SPRITE
     power: 16
     damageAlter:
       IgnoreOverKill: false
@@ -4971,7 +4971,7 @@ items:
     size: 0.1
     weight: 3
     bigSprite: 179 #get a new sprite soon please
-    floorSprite: 100 #GET A NEW SPRITE 
+    floorSprite: 100 #GET A NEW SPRITE
     power: 19
     damageAlter:
       IgnoreOverKill: false
@@ -4996,7 +4996,7 @@ items:
     size: 0.1
     weight: 3
     bigSprite: 179 #get a new sprite soon please
-    floorSprite: 100 #GET A NEW SPRITE 
+    floorSprite: 100 #GET A NEW SPRITE
     power: 26
     damageAlter:
       IgnoreOverKill: false
@@ -5503,7 +5503,7 @@ items:
     autoShots: 10
     confSnap:
       shots: 3
-      followProjectiles: false   # the camera stays still while shooting (prevents 
+      followProjectiles: false   # the camera stays still while shooting (prevents
     sprayWaypoints: 2
     snapRange: 12
     autoRange: 17
@@ -5787,7 +5787,7 @@ items:
     hitSound: 81
     hitAnimation: 0
     damageType: 3
-    power: 80 #Balance this 
+    power: 80 #Balance this
     damageAlter:
       IgnoreOverKill: false
       FixRadius: -1
@@ -5832,7 +5832,7 @@ items:
     hitSound: 81
     hitAnimation: 0
     damageType: 3
-    power: 120 #Balance this 
+    power: 120 #Balance this
     damageAlter:
       IgnoreOverKill: false
       FixRadius: -1
@@ -5881,7 +5881,7 @@ items:
     weight: 12
     bigSprite: 259 #check appropiate dimensions!
     floorSprite: 12 #check this
-    hitSound: 13 #check this 
+    hitSound: 13 #check this
     hitAnimation: 26 #check this
     damageType: 6
     power: 50 #check if not too op
@@ -5905,7 +5905,7 @@ items:
     transferTime: 48
     weight: 12
     bigSprite: 259 #check appropiate dimensions!
-    floorSprite: 12 #check this 
+    floorSprite: 12 #check this
     hitSound: 0 #check this
     hitAnimation: 192
     explosionHitSound: 116
@@ -6080,7 +6080,7 @@ items:
     floorSprite: 0
     handSprite: 0
     bulletSprite: 4
-    bulletSpeed: 16 #check these 
+    bulletSpeed: 16 #check these
     fireSound: [136,137,138,131,139]
     sprayWaypoints: 2 #check if this isn't op
     compatibleAmmo:
@@ -6096,7 +6096,7 @@ items:
     tuSnap: 30
     confSnap:
       shots: 2
-      followProjectiles: false   # the camera stays still while shooting (prevents 
+      followProjectiles: false   # the camera stays still while shooting (prevents
     tuAimed: 45
     battleType: 1
     fixedWeapon: true
@@ -6179,7 +6179,7 @@ items:
     powerRangeThreshold: 16
     powerRangeReduction: 2
     damageAlter:
-      ArmorEffectiveness: 1.25 # 1.5, check this 
+      ArmorEffectiveness: 1.25 # 1.5, check this
       IgnoreOverKill: false
       toTile: 0.33 #0.25 on HWP
       RandomType: 7
@@ -6295,7 +6295,7 @@ items:
     damageType: 2
     damageAlter:
       RandomType: 3
-      FireBlastCalc: false 
+      FireBlastCalc: false
       FixRadius: 1
     clipSize: 15
     battleType: 2
@@ -6330,8 +6330,8 @@ items:
     listOrder: 33851
   - type: STR_PROXIMITY_TRACITE_FLARE
     requiresBuy:
-      - STR_SHARE_TRACITE_TECH                
-    monthlyBuyLimit: 15                              
+      - STR_SHARE_TRACITE_TECH
+    monthlyBuyLimit: 15
     categories: [STR_HUMAN_TECH, STR_EQUIPMENT, STR_CONCEALABLE, STR_LABOR, STR_FLARE, STR_SPORTS, STR_BEACH, STR_SPACE, STR_LAND]
     size: 0.1
     costBuy: 1500
@@ -6373,7 +6373,7 @@ items:
       proximityTrigger: true
     armor: 35
     attraction: 15
-    listOrder: 46287	
+    listOrder: 46287
   - type: STR_HWP_FLARE
     weight: 0
     bigSprite: 483
@@ -6402,7 +6402,7 @@ items:
     power: 30
     damageType: 2
     damageAlter:
-      FireBlastCalc: false 
+      FireBlastCalc: false
       FixRadius: 2
       RandomType: 3
     clipSize: 10
@@ -6451,7 +6451,7 @@ items:
     weight: 7
     bigSprite: 220
     floorSprite: 246
-    handSprite: 2136 #fix this 
+    handSprite: 2136 #fix this
     bulletSprite: 3
     fireSound: [172,173,174]
     reloadSound: [176,175]
@@ -7060,7 +7060,7 @@ items:
     accuracyCloseQuarters: 75
     accuracySnap: 34 #68
     accuracyAimed: 53 #105
-    tuSnap: 24 #29 
+    tuSnap: 24 #29
     tuAimed: 35 #40
     tuLoad: 20
     aimRange: 24 # 21
@@ -7429,7 +7429,7 @@ items:
     damageAlter:
       RandomType: 2
       ArmorEffectiveness: 0.2
-      FireBlastCalc: false 
+      FireBlastCalc: false
       IgnoreOverKill: false
       ToItem: 0.5
       ToMorale: 20.0
@@ -7465,7 +7465,7 @@ items:
     damageAlter:
       RandomType: 2
       ArmorEffectiveness: 0.2
-      FireBlastCalc: false 
+      FireBlastCalc: false
       IgnoreOverKill: false
       ToItem: 0.5
       ToMorale: 20.0
@@ -7765,7 +7765,7 @@ items:
     attraction: 26
     listOrder: 30860
   - type: STR_PLASMA_GATLER_CLIP
-    categories: [STR_ALIEN_TECH, STR_PLASMA, STR_MACHINE_GUNS, STR_CLIPS, STR_SPACE, STR_LAND]  
+    categories: [STR_ALIEN_TECH, STR_PLASMA, STR_MACHINE_GUNS, STR_CLIPS, STR_SPACE, STR_LAND]
     power: 66
     requires:
       - STR_PLASMA_GATLER_CLIP
@@ -7786,7 +7786,7 @@ items:
       ToStun: 0.75
       RandomWound: false
       ToWound: 0.12
-      FireThreshold: 25.0
+      FireThreshold: 25
     clipSize: 120
     battleType: 2
     recoveryPoints: 5
@@ -7861,7 +7861,7 @@ items:
     damageAlter:
       ArmorEffectiveness: 1.0
   - type: STR_COLT45
-    tuSnap: 19 #18 
+    tuSnap: 19 #18
     compatibleAmmo: !add
       - STR_COLT45_AP_CLIP
       - STR_COLT45_HP_CLIP
@@ -9023,7 +9023,7 @@ items:
     # costSell: 5000
     # weight: 2
     # bigSprite: 430 #CHECK
-    # handSprite: 2552 #CHECK 
+    # handSprite: 2552 #CHECK
     # meleeHitSound: 70 #CHECK
     # meleeAnimation: 0
     # power: 26
@@ -9231,7 +9231,7 @@ items:
     categories: [STR_HUMAN_TECH, STR_GRENADES, STR_INCAPACITATE, STR_CONCEALABLE, STR_SPACE, STR_LAND]
     size: 0.1
     weight: 3
-    bigSprite: 195 #924 CHECK ALL OF THESE 
+    bigSprite: 195 #924 CHECK ALL OF THESE
     floorSprite: 197 #820
     handSprite: 196 #1656
     bulletSprite: 0 #18
@@ -9728,7 +9728,7 @@ items:
     costSell: 8700
     weight: 3
     bigSprite: 265
-    floorSprite: 2 #add one 
+    floorSprite: 2 #add one
     hitSound: 13
     hitAnimation: 26
     power: 16 #20
@@ -9796,7 +9796,7 @@ items:
   - type: STR_TRACITE_CHARGE
     requiresBuy:
       - STR_BREACHING_CHARGE_BUY
-      - STR_SHARE_TRACITE_TECH      
+      - STR_SHARE_TRACITE_TECH
     categories: [STR_HUMAN_TECH, STR_BREACHING_TOOLS ,STR_LAND STR_SPACE]
     size: 0.2
     costBuy: 1500
@@ -10015,7 +10015,7 @@ items:
     recover: false
     blastRadius: 100
     listOrder: 38111
-    isExplodingInHands: true 
+    isExplodingInHands: true
   - type: STR_TERRAFORMER
     size: 0.2
     costSell: 300
@@ -10052,7 +10052,7 @@ items:
     recover: false
     blastRadius: 500
     listOrder: 38111
-    isExplodingInHands: true 
+    isExplodingInHands: true
   - type: STR_PTRD41
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_HEAVY_WEAPONS, STR_ANTITANK, STR_LAND]
     requiresBuy:
@@ -10227,7 +10227,7 @@ items:
     weight: 9
     bigSprite: 411 #check this
     floorSprite: 396 #check this
-    handSprite: 2528 #check this 
+    handSprite: 2528 #check this
     bulletSprite: 2
     fireSound: [192,194,195]
     reloadSound: 197
@@ -10397,7 +10397,7 @@ items:
     weight: 5
     bigSprite: 276
     floorSprite: 335
-    explosionHitSound: 179 
+    explosionHitSound: 179
     hitAnimation: 0
     power: 50
     damageBonus:
@@ -10557,7 +10557,7 @@ items:
     armor: 20
     attraction: 22
     listOrder: 22080
-  - type: STR_RT20_AP_CLIP 
+  - type: STR_RT20_AP_CLIP
     nameAsAmmo: (AP)
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_ANTITANK, STR_HEAVY_WEAPONS, STR_CLIPS, STR_LAND]
     requiresBuy:
@@ -10584,7 +10584,7 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 22081
-  - type: STR_RT20_AP_BIG_CLIP 
+  - type: STR_RT20_AP_BIG_CLIP
     nameAsAmmo: (AP)
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_ANTITANK, STR_HEAVY_WEAPONS, STR_CLIPS, STR_LAND]
     requiresBuy:
@@ -10981,7 +10981,7 @@ items:
     bigSprite: 281
     floorSprite: 345
     handSprite: 2240
-    bulletSprite: 0 #change this 
+    bulletSprite: 0 #change this
     fireSound: 52
     hitSound: 0
     hitAnimation: 0
@@ -10998,7 +10998,7 @@ items:
     invHeight: 3
     attraction: 20
     listOrder: 33841
-  - type: STR_M3_CARL_GUSTAV #can fire flare rounds 
+  - type: STR_M3_CARL_GUSTAV #can fire flare rounds
     categories: [STR_HUMAN_TECH, STR_LAUNCHERS, STR_HEAVY_WEAPONS, STR_EXPLOSIVES, STR_LAND]
     requiresBuy:
       - STR_M3_CARL_GUSTAV_BUY
@@ -11362,7 +11362,7 @@ items:
     costBuy: 25000
     costSell: 18000
     weight: 30
-    bigSprite: 343 #new sprite please 
+    bigSprite: 343 #new sprite please
     floorSprite: 340 #check this
     handSprite: 2208 #check this
     bulletSprite: 3
@@ -11473,7 +11473,7 @@ items:
     size: 0.1
     weight: 4
     bigSprite: 345 #get a new sprite soon please
-    floorSprite: 329 #GET A NEW SPRITE 
+    floorSprite: 329 #GET A NEW SPRITE
     power: 65
     damageAlter:
       IgnoreOverKill: false
@@ -11877,7 +11877,7 @@ items:
     accuracyCloseQuarters: 70
     accuracySnap: 30
     accuracyAimed: 50
-    tuSnap: 26 
+    tuSnap: 26
     tuAimed: 40
     tuLoad: 20
     aimRange: 23
@@ -12960,7 +12960,7 @@ items:
     costSell: 4000
     costBuy: 7500
     weight: 4
-    bigSprite: 421 #check this 
+    bigSprite: 421 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -12980,7 +12980,7 @@ items:
     # costSell: 7500
     # costBuy: 18000
     weight: 4
-    bigSprite: 421 #check this 
+    bigSprite: 421 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -12997,7 +12997,7 @@ items:
     size: 1
     costSell: 15000
     weight: 8
-    bigSprite: 421 #check this 
+    bigSprite: 421 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -13014,7 +13014,7 @@ items:
     size: 1
     costSell: 25000
     weight: 10
-    bigSprite: 420 #check this 
+    bigSprite: 420 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -13031,7 +13031,7 @@ items:
     size: 1
     costSell: 5000
     weight: 10
-    bigSprite: 420 #check this 
+    bigSprite: 420 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -13048,7 +13048,7 @@ items:
     size: 1
     costSell: 25000
     weight: 10
-    bigSprite: 419 #check this 
+    bigSprite: 419 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -13065,7 +13065,7 @@ items:
     size: 1
     costSell: 25000
     weight: 2
-    bigSprite: 419 #check this 
+    bigSprite: 419 #check this
     floorSprite: 4 #check this
     battleType: 10
     costThrow:
@@ -13202,7 +13202,7 @@ items:
       SmokeThreshold: 50
       RandomHealth: true
       FixRadius: 1 #1
-      ResistType: 1     
+      ResistType: 1
     costMelee:
       time: 14
       energy: 8
@@ -13358,7 +13358,7 @@ items:
     liveAlien: true
     prisonType: 1
     recover: true
-    recoveryPoints: 100                       
+    recoveryPoints: 100
     costSell: 50000
     listOrder: 158100
   - type: STR_BOUND_HANDS

@@ -28,7 +28,7 @@ alienDeployments:
     alertDescription: STR_MUTON_UFO_DESCRIPTION
     briefing:
       background: SPECOPS.SCR
-      palette: 2 
+      palette: 2
       desc: STR_MUTON_UFO_BRIEFING
       showTarget: false
     markerName: STR_MUTON_UFO
@@ -449,7 +449,7 @@ alienDeployments:
           -
             - STR_PLASMA_DESTROYER
             - STR_PLASMA_DESTROYER_CLIP
-            - STR_PLASMA_DESTROYER_CLIP       
+            - STR_PLASMA_DESTROYER_CLIP
       - alienRank: 7
         lowQty: 1
         highQty: 1
@@ -499,7 +499,7 @@ alienDeployments:
     alertDescription: STR_MUTON_UFO_DESCRIPTION
     briefing:
       background: SPECOPS.SCR
-      palette: 2 
+      palette: 2
       desc: STR_MUTON_UFO_BRIEFING
       showTarget: false
     markerName: STR_MUTON_UFO

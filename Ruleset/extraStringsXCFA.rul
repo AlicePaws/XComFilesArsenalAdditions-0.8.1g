@@ -281,7 +281,7 @@ extraStrings:
       STR_NIGHT_JUMPSUIT_H_UC: "NIGHTSUIT (H)"
       STR_NIGHT_JUMPSUIT_UC: "NIGHTSUIT"
       STR_NIGHTOPS: "Tactics: Nocturnal Camouflage and Illumination"
-      STR_NIGHTOPS_UFOPEDIA: "* Illumination flares and Star rounds are non damaging and will illuminate dark places, make sure you are lighting up the enemy and not yourself! As a rule of thumb the bigger the round, the longer lasting/bigger effect it will have. {NEWLINE}* New armor with excellent camouflage in the dark will be developed." 
+      STR_NIGHTOPS_UFOPEDIA: "* Illumination flares and Star rounds are non damaging and will illuminate dark places, make sure you are lighting up the enemy and not yourself! As a rule of thumb the bigger the round, the longer lasting/bigger effect it will have. {NEWLINE}* New armor with excellent camouflage in the dark will be developed."
       STR_ADVANCED_NIGHTOPS_UFOPEDIA: "We've further developed solutions for our night operations: {NEWLINE}* Tactical Ops Suit: Provides further protection without sacrificing too much movement and still providing night-vision capabilities"
       STR_ADVANCED_NIGHTOPS: "Tactics: Advanced NightOps"
       STR_IMPROVED_BATTERIES: "Improved Batteries"
@@ -386,7 +386,7 @@ extraStrings:
       STR_SHOTGUN_FLECHETTE_SHELLS_BUY: "Shotgun Flechette Shells Acquisition"
       STR_SHOTGUN_AA_SHELLS_FLAK: "Shotgun Flak Shells"
       STR_SHOTGUN_AA_SHELLS_FLAK_MANUFACTURING: "Shotgun Tritanium Flak Manufacturing"
-      STR_UNPRIME_BREACHING_CHARGE: "Unprime Charge" 
+      STR_UNPRIME_BREACHING_CHARGE: "Unprime Charge"
       STR_BREACHING_CHARGE_BUY: "Breaching Charge Acquisition"
       STR_BREACHING_CHARGE: "Conventional Breaching Charge"
       STR_BREACHING_CHARGE_UFOPEDIA: "This charge is designed to minimize the damage to the agent whie compromising the desired wall's integrity."
@@ -526,7 +526,7 @@ extraStrings:
       STR_BLACKOPS_EXECUTIONER_BS_CLIP: "BlackOps Executioner BS Drum"
       STR_BLACKOPS_EXECUTIONER_UFOPEDIA: "This revolver can dispense firepower that is unparalleled. The recoil makes one handed shooting extremely difficult."
       STR_BLACKOPS_EXECUTIONER_BUY: "BlackOps Executioner Acquisition"
-#WEAPON MODIFICATION 
+#WEAPON MODIFICATION
       STR_RAFFICA_STOCK: "Add Attachment: Beretta 93R: Stock"
       STR_RAFFICA_UNSTOCK: "Remove Attachment: Beretta 93R: Stock"
       STR_RAFFICA_PISTOL_STOCK: "Beretta 93R (Stock)"
@@ -725,7 +725,7 @@ extraStrings:
       STR_BLACK_LOTUS_WAREHOUSE_RAIDED: "Black Lotus Warehouse Raided"
 
       STR_BLACK_LOTUS_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Black Lotus cultists carrying weapons"
-      
+
       STR_CULT_CONVOY_UFOPEDIA: "This is our opportunity to intercept convoys transporting weapons."
       STR_SMALL_GROUND_CONVOY_BLACK_LOTUS_BRIEFING: "We have intercepted a small Black Lotus shipment of resources. Make sure it doesn't reach its destination. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
       STR_SMALL_GROUND_CONVOY_BLACK_LOTUS_DESCRIPTION: "Black Lotus are secretly transporting weapons. Intercept this convoy before it disappears."
@@ -764,7 +764,7 @@ extraStrings:
       STR_MEDIUM_GROUND_CONVOY_JUNGLE_BLACK_LOTUS: "Medium Black Lotus Convoy"
       STR_MEDIUM_GROUND_CONVOY_COLD_BLACK_LOTUS: "Medium Black Lotus Convoy"
       STR_MEDIUM_GROUND_CONVOY_DESERT_BLACK_LOTUS: "Medium Black Lotus Convoy"
-      
+
       STR_BLACK_LOTUS_LARGE_GROUND_CONVOY: "Large Black Lotus Convoy"
       STR_LARGE_GROUND_CONVOY_BLACK_LOTUS: "Black Lotus Large Convoy"
       STR_LARGE_GROUND_CONVOY_TEMPERATE_BLACK_LOTUS: "Large Black Lotus Convoy"
@@ -784,10 +784,10 @@ extraStrings:
       STR_EXALT_TERMINATE_CONVOY_LARGE: "Terminate EXALT Large Convoys"
       STR_EXALT_TERMINATE_WAREHOUSE: "Destroy EXALT Supply Warehouses"
       STR_EXALT_WAREHOUSE_RAIDED: "EXALT Warehouse Raided"
-      
+
       STR_HEAVY_RIOT_SUIT_REPAIR: "Heavy Riot Suit Repair"
       STR_EXALT_RIOT_SUIT_REPAIR: "EXALT Heavy Riot Suit Repair"
-      
+
       STR_SMALL_GROUND_CONVOY_EXALT_BRIEFING: "We have intercepted a small EXALT shipment of resources. Make sure it doesn't reach its destination. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
       STR_SMALL_GROUND_CONVOY_EXALT_DESCRIPTION: "EXALT are secretly transporting weapons. Intercept this convoy before it disappears."
       STR_MEDIUM_GROUND_CONVOY_EXALT_XCFA_DESCRIPTION: "EXALT are secretly transporting weapons. Intercept this convoy before it disappears."
@@ -815,7 +815,7 @@ extraStrings:
       STR_MEDIUM_GROUND_CONVOY_JUNGLE_EXALT: "Medium EXALT Convoy"
       STR_MEDIUM_GROUND_CONVOY_COLD_EXALT: "Medium EXALT Convoy"
       STR_MEDIUM_GROUND_CONVOY_DESERT_EXALT: "Medium EXALT Convoy"
-      
+
       STR_EXALT_LARGE_GROUND_CONVOY: "Large EXALT Convoy"
       STR_LARGE_GROUND_CONVOY_EXALT: "EXALT Large Convoy"
       STR_LARGE_GROUND_CONVOY_TEMPERATE_EXALT: "Large EXALT Convoy"
@@ -866,7 +866,7 @@ extraStrings:
       STR_ZSRR_WAREHOUSE_RAIDED: "Red Dawn Warehouse Raided"
 
       STR_ZSRR_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Red Dawn cultists carrying weapons"
-      
+
       STR_CULT_CONVOY_UFOPEDIA: "This is our opportunity to intercept convoys transporting weapons."
       STR_SMALL_GROUND_CONVOY_ZSRR_BRIEFING: "We have intercepted a small Red Dawn shipment of resources. Make sure it doesn't reach its destination. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
       STR_SMALL_GROUND_CONVOY_ZSRR_DESCRIPTION: "Red Dawn are secretly transporting weapons. Intercept this convoy before it disappears."
@@ -914,7 +914,7 @@ extraStrings:
       STR_MEDIUM_GROUND_CONVOY_JUNGLE_ZSRR: "Medium Red Dawn Convoy"
       STR_MEDIUM_GROUND_CONVOY_COLD_ZSRR: "Medium Red Dawn Convoy"
       STR_MEDIUM_GROUND_CONVOY_DESERT_ZSRR: "Medium Red Dawn Convoy"
-      
+
       STR_ZSRR_LARGE_GROUND_CONVOY: "Large Red Dawn Convoy"
       STR_LARGE_GROUND_CONVOY_ZSRR: "Red Dawn Large Convoy"
       STR_LARGE_GROUND_CONVOY_TEMPERATE_ZSRR: "Large Red Dawn Convoy"
@@ -958,22 +958,22 @@ extraStrings:
       STR_CHURCH_OF_DAGON_WAREHOUSE_RAIDED: "Church Of Dagon Warehouse Raided"
 
       STR_CHURCH_OF_DAGON_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A cultist in charge of convoy logistics should be here, prioritize capturing them. {NEWLINE}* Security Level: LOWEST"
-      STR_CHURCH_OF_DAGON_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"      
+      STR_CHURCH_OF_DAGON_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"
       STR_CHURCH_OF_DAGON_CONVOY_LARGE_UFOPEDIA: "We've located the largest and main convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* Intercepting this convoy will take us straight to the main warehouse. {NEWLINE}* Security Level: HIGH"
       STR_CHURCH_OF_DAGON_WAREHOUSE_UFOPEDIA: "The main supply warehouse for the Church Of Dagon has been located. {NEWLINE}* People of interest: The Hand of Dagon' {NEWLINE}* Reports indicate it is capable of flight and has a powerful shield.{NEWLINE} Security Level: EXTREME"
       STR_CHURCH_OF_DAGON_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A cultist in charge of convoy logistics should be here, prioritize capturing them. {NEWLINE}* Security Level: LOWEST"
-      STR_CHURCH_OF_DAGON_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"      
+      STR_CHURCH_OF_DAGON_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"
       STR_CHURCH_OF_DAGON_CONVOY_LARGE_UFOPEDIA: "We've located the largest and main convoys of Church Of Dagon cultists carrying weapons and supplies. {NEWLINE}* Intercepting this convoy will take us straight to the main warehouse. {NEWLINE}* Security Level: HIGH"
       STR_CHURCH_OF_DAGON_WAREHOUSE_UFOPEDIA: "The main supply warehouse for the Church Of Dagon has been located. {NEWLINE}* People of interest: 'The Hand of Dagon' {NEWLINE}* Reports indicate it is capable of flight and has a powerful shield.{NEWLINE} Security Level: EXTREME"
       # STR_CULT_CONVOY_UFOPEDIA: "This is our opportunity to intercept convoys transporting weapons."
 
       STR_EXALT_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of EXALT cultists carrying weapons and supplies. {NEWLINE}* People of interest: A cultist in charge of convoy logistics should be here, prioritize capturing them. {NEWLINE}* Security Level: LOWEST"
-      STR_EXALT_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of EXALT cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"      
+      STR_EXALT_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of EXALT cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"
       STR_EXALT_CONVOY_LARGE_UFOPEDIA: "We've located the largest and main convoys of EXALT cultists carrying weapons and supplies. {NEWLINE}* Intercepting this convoy will take us straight to the main warehouse. {NEWLINE}* Security Level: HIGH"
       STR_EXALT_WAREHOUSE_UFOPEDIA: "The main supply warehouse for EXALT has been located. {NEWLINE}* People of interest: 'Codename: Patriot' {NEWLINE}* Armed to the teeth.{NEWLINE} Security Level: EXTREME"
 
       STR_ZSRR_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Red Dawn cultists carrying weapons and supplies. {NEWLINE}* People of interest: A cultist in charge of convoy logistics should be here, prioritize capturing them. {NEWLINE}* Security Level: LOWEST"
-      STR_ZSRR_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Red Dawn cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"      
+      STR_ZSRR_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Red Dawn cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"
       STR_ZSRR_CONVOY_LARGE_UFOPEDIA: "We've located the largest and main convoys of Red Dawn cultists carrying weapons and supplies. {NEWLINE}* Intercepting this convoy will take us straight to the main warehouse. {NEWLINE}* Security Level: HIGH"
       STR_ZSRR_WAREHOUSE_UFOPEDIA: "The main supply warehouse for the Red Dawn has been located. {NEWLINE}* People of interest: 'The Wall' {NEWLINE}* Uses an experimental type of extremely heavy armor .{NEWLINE} Security Level: EXTREME"
 
@@ -986,7 +986,7 @@ extraStrings:
       STR_WAREHOUSE_BLACK_LOTUS_DESCRIPTION: "We've found where Black Lotus convoys are coming from, this is our chance to cripple their supplies."
       STR_WAREHOUSE_BLACK_LOTUS_BRIEFING: "This is the Black Lotus warehouse where the convoy trail lead us, raid it and secure it or take what you can and extract. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
       STR_BLACK_LOTUS_CONVOY_SMALL_UFOPEDIA: "We've located small convoys of Black Lotus cultists carrying weapons and supplies. {NEWLINE}* People of interest: A cultist in charge of convoy logistics should be here, prioritize capturing them. {NEWLINE}* Security Level: LOWEST"
-      STR_BLACK_LOTUS_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Black Lotus cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"      
+      STR_BLACK_LOTUS_CONVOY_MEDIUM_UFOPEDIA: "We've located medium-sized convoys of Black Lotus cultists carrying weapons and supplies. {NEWLINE}* People of interest: A higher ranking officer is present, capture them. {NEWLINE}* Security Level: MODERATE"
       STR_BLACK_LOTUS_CONVOY_LARGE_UFOPEDIA: "We've located the largest and main convoys of Black Lotus cultists carrying weapons and supplies. {NEWLINE}* Intercepting this convoy will take us straight to the main warehouse. {NEWLINE}* Security Level: HIGH"
       STR_BLACK_LOTUS_WAREHOUSE_UFOPEDIA: "The main supply warehouse for the Black Lotus has been located. {NEWLINE}* People of interest: 'The One' {NEWLINE}* Can apparently dodge bullets and is adept at martial arts.{NEWLINE} Security Level: EXTREME"
 
@@ -1013,7 +1013,7 @@ extraStrings:
       STR_MEDIUM_GROUND_CONVOY_JUNGLE_CHURCH_OF_DAGON: "Medium Church Of Dagon Convoy"
       STR_MEDIUM_GROUND_CONVOY_COLD_CHURCH_OF_DAGON: "Medium Church Of Dagon Convoy"
       STR_MEDIUM_GROUND_CONVOY_DESERT_CHURCH_OF_DAGON: "Medium Church Of Dagon Convoy"
-      
+
       STR_CHURCH_OF_DAGON_LARGE_GROUND_CONVOY: "Large Church Of Dagon Convoy"
       STR_LARGE_GROUND_CONVOY_CHURCH_OF_DAGON: "Church Of Dagon Large Convoy"
       STR_LARGE_GROUND_CONVOY_TEMPERATE_CHURCH_OF_DAGON: "Large Church Of Dagon Convoy"

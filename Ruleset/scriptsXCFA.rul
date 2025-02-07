@@ -24,7 +24,7 @@ items:
     tags:
       NEW_BIGOB_FOR_WEAPON: 578 #changes always, tracite
       CURRENT_MOD_OFFSET: current
-  - type: STR_WP_7_62_CLIP 
+  - type: STR_WP_7_62_CLIP
     tags:
       GENERIC_AMMO: 1
       CURRENT_MOD_OFFSET: current
@@ -56,7 +56,7 @@ items:
       NEW_HANDOB_FOR_WEAPON: 2744 #changes once, big clip/drum
       CURRENT_MOD_OFFSET: current
   - type: STR_RIOT_WIELDABLE_SHIELD
-    tags:     
+    tags:
       ITEM_IS_SHIELD: 1
       CURRENT_MOD_OFFSET: current
       BIGOB_FOR_PRIMED: 579
@@ -72,7 +72,7 @@ items:
       SHIELD_INCENDIARY_RT: 120
       SHIELD_MAX_DMG: 35 #25 + 10? or just 25?
   - type: STR_XENO_COMBAT_WIELDABLE_SHIELD
-    tags:     
+    tags:
       ITEM_IS_SHIELD: 1
       CURRENT_MOD_OFFSET: current
       BIGOB_FOR_PRIMED: 581
@@ -88,7 +88,7 @@ items:
       SHIELD_INCENDIARY_RT: 120
       SHIELD_MAX_DMG: 38 #28 + 10? or just 28?
   - type: STR_XENO_ALLOY_WIELDABLE_SHIELD
-    tags:     
+    tags:
       ITEM_IS_SHIELD: 1
       CURRENT_MOD_OFFSET: current
       BIGOB_FOR_PRIMED: 582
@@ -105,7 +105,7 @@ items:
       SHIELD_ELECTRIC_RT: 80
       SHIELD_MAX_DMG: 54 #44 + 10? or just 44?
   - type: STR_ASSAULT_WIELDABLE_SHIELD
-    tags:     
+    tags:
       ITEM_IS_SHIELD: 1
       CURRENT_MOD_OFFSET: current
       BIGOB_FOR_PRIMED: 583
@@ -123,7 +123,7 @@ items:
       SHIELD_WARP_RT: 85
       SHIELD_MAX_DMG: 84 #70 + 14? or just 70?
   - type: STR_STORMTROOPER_WIELDABLE_SHIELD
-    tags:     
+    tags:
       ITEM_IS_SHIELD: 1
       CURRENT_MOD_OFFSET: current
       BIGOB_FOR_PRIMED: 585
@@ -1438,22 +1438,22 @@ extended:
       SHIELD_DURABILITY: int
       SHIELD_MULTIPLIER: int
       SHIELD_AIMING_PENALTY: int
-      SHIELD_SPECIAL_RT: int 
+      SHIELD_SPECIAL_RT: int
       SHIELD_KINETIC_RT: int
       SHIELD_INCENDIARY_RT: int
       SHIELD_CONCUSSIVE_RT: int
       SHIELD_LASER_RT: int
-      SHIELD_PLASMA_RT: int 
+      SHIELD_PLASMA_RT: int
       SHIELD_STUN_RT: int
       SHIELD_CUTTING_RT: int
-      SHIELD_CHEMICAL_RT: int 
+      SHIELD_CHEMICAL_RT: int
       SHIELD_CHOKING_RT: int
       SHIELD_EMP_RT: int
       SHIELD_ELECTRIC_RT: int
       SHIELD_PSI_RT: int
-      SHIELD_WARP_RT: int 
+      SHIELD_WARP_RT: int
       SHIELD_ANTI_E115_RT: int
-      SHIELD_BIO_RT: int 
+      SHIELD_BIO_RT: int
       SHIELD_MAX_DMG: int
 #support grenades
       HTAG_HEAL_TYPE: int
@@ -1499,27 +1499,27 @@ extended:
       ITEM_SHIELD_AIMING_PENALTY: int
       ITEM_SHIELD_MULTIPLIER: int
 
-      ITEM_SHIELD_SPECIAL_RT: int 
+      ITEM_SHIELD_SPECIAL_RT: int
       ITEM_SHIELD_KINETIC_RT: int
       ITEM_SHIELD_INCENDIARY_RT: int
       ITEM_SHIELD_CONCUSSIVE_RT: int
       ITEM_SHIELD_LASER_RT: int
       ITEM_SHIELD_PLASMA_RT: int
       ITEM_SHIELD_STUN_RT: int
-      ITEM_SHIELD_CUTTING_RT: int 
+      ITEM_SHIELD_CUTTING_RT: int
       ITEM_SHIELD_CHEMICAL_RT: int
       ITEM_SHIELD_CHOKING_RT: int
-      ITEM_SHIELD_EMP_RT: int 
+      ITEM_SHIELD_EMP_RT: int
       ITEM_SHIELD_ELECTRIC_RT: int
       ITEM_SHIELD_PSI_RT: int
       ITEM_SHIELD_WARP_RT: int
-      ITEM_SHIELD_ANTI_E115_RT: int 
-      ITEM_SHIELD_BIO_RT: int 
+      ITEM_SHIELD_ANTI_E115_RT: int
+      ITEM_SHIELD_BIO_RT: int
       ITEM_SHIELD_MAX_DMG: int
-      
+
       ITEM_VEST_DURABILITY: int
       ITEM_VEST_ARMOR: int
-      
+
       ITEM_GASMASK_DURABILITY: int
     BattleUnit:
 #flare
@@ -1591,14 +1591,14 @@ extended:
       UNIT_TINTED_GASMASK: int
       UNIT_ALLOY_GASMASK: int
       UNIT_GASMASK_PROTECTION: int
-      
+
       UNIT_REACTION_PENALTY: int
       UNIT_FIRING_AIM_PENALTY: int
       UNIT_THROWING_AIM_PENALTY: int
       UNIT_TIME_PENALTY: int
       UNIT_STAMINA_PENALTY: int
       UNIT_MELEE_PENALTY: int
-      
+
       UNIT_IS_HOSTAGE: int
       UNIT_IS_IGNORED: int
       UNIT_IS_INVISIBLE: int
@@ -1721,7 +1721,7 @@ extended:
             unit.setTag Tag.HTAG_ORIGINAL_RIGHT_LEG_WOUNDS rightLegWounds;
             unit.setTag Tag.HTAG_ORIGINAL_LEFT_LEG_WOUNDS leftLegWounds;
 
-            loop var loopCycles 6;  
+            loop var loopCycles 6;
               # debug_log "Current part number is: ";
               # debug_log loopCycles;
               unit.setFatalwounds loopCycles 0;
@@ -1775,16 +1775,16 @@ extended:
           itemRuleset.getTag flashbangedTime Tag.FTAG_DAZE_TIME;
           if eq teargassedValue 0; # Make sure item has either flashbang or teargassed effect
             return;
-          end;          
+          end;
 
           unit.getTag teargassedTag Tag.TTAG_ISTEARGASSED;
           unit.getTag flashbangedTag Tag.FTAG_ISDAZED;
           # debug_log teargassedTag;
           # debug_log flashbangedTag;
           # debug_log "Above was teargassedTag and flashbangedTag";
-          
+
           unit.getTag maskTag Tag.UNIT_RESIST_ITEM_SLOT_2;
-          
+
           # debug_log "Checking if the unit was wearing a mask of some type";
           # debug_log maskTag;
           # debug_log "Above is maskTag value";
@@ -1792,7 +1792,7 @@ extended:
           unit.getTag untintedMask Tag.UNIT_GASMASK;
           unit.getTag alloyMask Tag.UNIT_ALLOY_GASMASK;
           unit.getRuleArmor armor_rule;
-          
+
           # if eq flashbangedTag 69;
             # if eq tintedMask 1;
               # armor_rule.getTag flashbangSusceptibility Tag.FTAG_FLASHBANG_RESISTANCE;
@@ -1819,10 +1819,10 @@ extended:
                 # # debug_log "multiplied timeUnits x 2 equals:";
                 # # debug_log originalTimeUnits;
                 # unit.Stats.setTimeUnits originalTimeUnits; #revent debuff
-                # unit.Stats.setReactions originalReactions; 
-                # unit.Stats.setFiring originalFiring; 
-                # unit.Stats.setThrowing originalThrowing; 
-                # unit.Stats.setMelee originalMelee; 
+                # unit.Stats.setReactions originalReactions;
+                # unit.Stats.setFiring originalFiring;
+                # unit.Stats.setThrowing originalThrowing;
+                # unit.Stats.setMelee originalMelee;
                 # unit.setTag Tag.FTAG_ISDAZED 0; #cancel tag
                 # if eq teargassedTag 69;
                   # return;
@@ -1846,7 +1846,7 @@ extended:
                # end;
               # end;
             # end;
-          
+
           if eq teargassedTag 69; # Make sure unit already have teargassed debuff
             return;
           end;
@@ -2117,7 +2117,7 @@ extended:
             else;
               itemOwner.setTag Tag.UNIT_RESIST_ITEM_SLOT_1 1;
             end;
-            
+
           else and eq impactVest 1 eq itemResistSlotIndex 1;
             itemOwner.getTag temp Tag.UNIT_RESIST_ITEM_SLOT_1;
             # debug_log "impact vest and itemresistslot are both 1";
@@ -2170,7 +2170,7 @@ extended:
             if eq remainingExtraProtection 0;
               set remainingExtraProtection extraProtectionTag;
               itemOwner.setTag Tag.UNIT_EXTRA_PROTECTION remainingExtraProtection;
-            end;            
+            end;
 
             if eq temp 1;
               return;
@@ -2191,7 +2191,7 @@ extended:
             itemOwner.getTag temp Tag.UNIT_RESIST_ITEM_SLOT_2;
             # debug_log "This unit is wearing a mask!";
             itemOwner.setTag Tag.UNIT_GASMASK_PROTECTION gasmaskProtectionValue;
-            
+
             if eq normalGasmask 1;
               # debug_log "gasmask is not tinted";
               itemOwner.setTag Tag.UNIT_GASMASK 1;
@@ -2374,7 +2374,7 @@ extended:
               itemOwner.setTag Tag.UNIT_RESIST_ITEM_SLOT_19 1;
             end;
           end;
-          
+
           return;
       - offset: 4 #Unprimes shield if unit has moved!
         code: |
@@ -2448,7 +2448,7 @@ extended:
           var int originalFiring;
           var int shieldFuse;
           var int shieldMultiplier;
-          
+
           set leftShield 0;
           set rightShield 0;
           unit.getLeftHandWeapon leftHandWeapon;
@@ -2463,13 +2463,13 @@ extended:
           if and eq leftShield 0 eq rightShield 0;
             return bonus;
           end;
-          
+
           if eq leftShield 1;
             set ambidexShield leftHandWeapon;
           else eq rightShield 1;
             set ambidexShield rightHandWeapon;
           end;
-          
+
           # debug_log "Shield found!, aim penalties in effect!";
           ambidexShield.getTag shieldPenalty Tag.ITEM_SHIELD_AIMING_PENALTY;
           ambidexShield.getTag shieldMultiplier Tag.ITEM_SHIELD_MULTIPLIER;
@@ -2486,7 +2486,7 @@ extended:
           unit.Stats.getFiring originalFiring;
 
           sub originalFiring shieldPenalty;
-          
+
           if le bonus originalFiring;
             debug_log "Penalty actually made this equal OR even more than before! denying";
             debug_log bonus;
@@ -2495,7 +2495,7 @@ extended:
             sub bonus shieldPenalty;
             return bonus;
           end;
-          
+
           set bonus originalFiring;
 
           return bonus;
@@ -2617,7 +2617,7 @@ extended:
           unit.setTag Tag.UNIT_RECOLOR_START_FRAME 0;
           unit.setTag Tag.UNIT_RECOLOR_FRAME_LENGTH 0;
           unit.setTag Tag.UNIT_RECOLOR_COLOR 0;
-          
+
           unit.getTag berserkerTag Tag.UNIT_MUTON_BERSERKER;
 
           # Clear all unit resist types and minimums so resistance items can set again
@@ -2661,11 +2661,11 @@ extended:
           unit.setTag Tag.UNIT_RESIST_TYPE_17 0;
           unit.setTag Tag.UNIT_RESIST_TYPE_18 0;
           unit.setTag Tag.UNIT_RESIST_TYPE_19 0;
-          
+
           if eq berserkerTag 1;
             return;
           end;
-          
+
           unit.setTag Tag.UNIT_IMPACT_VEST 0;
           unit.setTag Tag.UNIT_RIOT_STAB_VEST 0;
           unit.setTag Tag.UNIT_GASMASK 0;
@@ -2681,7 +2681,7 @@ extended:
           unit.setTag Tag.UNIT_CERAMIC_PLATE_VEST 0;
           # unit.setTag Tag.UNIT_EXTRA_PROTECTION 0;
           return;
-      - offset: 5 #Reduces immunity time 
+      - offset: 5 #Reduces immunity time
         code: |
           var int immunityTag;
           var int hostageTag;
@@ -2743,10 +2743,10 @@ extended:
           if eq teargassedTag 69;
             if eq currTurn endTurn;
               unit.Stats.setTimeUnits originalTimeUnits; #revent debuff
-              unit.Stats.setReactions originalReactions; 
-              unit.Stats.setFiring originalFiring; 
-              unit.Stats.setThrowing originalThrowing; 
-              unit.Stats.setMelee originalMelee; 
+              unit.Stats.setReactions originalReactions;
+              unit.Stats.setFiring originalFiring;
+              unit.Stats.setThrowing originalThrowing;
+              unit.Stats.setMelee originalMelee;
               unit.setTag Tag.TTAG_ISTEARGASSED 0; #cancel tag
               battle_game.flashMessage "STR_TARGET_IS_NOT_TEARGASSED";
             end;
@@ -2842,7 +2842,7 @@ extended:
               set cyclesToSurvive totalWounds;
               sub cyclesToSurvive unitHealth;
               add cyclesToSurvive 1;
-            
+
               loop var loopCycles cyclesToSurvive;
                 # debug_log "Emergency stabilization loop (NON HIT EVENT)!";
                 if neq headWounds 0;
@@ -2954,7 +2954,7 @@ extended:
 
               set totalWounds 0;
               # debug_log "Non-hit event, new wounds have been saved";
-          
+
             end;
           end;
           if and eq currTurn endTurn eq bloodclotTag 1;
@@ -3006,7 +3006,7 @@ extended:
           unit.setTag Tag.UNIT_RECOLOR_START_FRAME 0;
           unit.setTag Tag.UNIT_RECOLOR_FRAME_LENGTH 0;
           unit.setTag Tag.UNIT_RECOLOR_COLOR 0;
-          
+
           unit.getTag berserkerTag Tag.UNIT_MUTON_BERSERKER;
 
           # Clear all unit resist types and minimums so resistance items can set again
@@ -3050,11 +3050,11 @@ extended:
           unit.setTag Tag.UNIT_RESIST_TYPE_17 0;
           unit.setTag Tag.UNIT_RESIST_TYPE_18 0;
           unit.setTag Tag.UNIT_RESIST_TYPE_19 0;
-          
+
           if eq berserkerTag 1;
             return;
           end;
-          
+
           unit.setTag Tag.UNIT_IMPACT_VEST 0;
           unit.setTag Tag.UNIT_RIOT_STAB_VEST 0;
           unit.setTag Tag.UNIT_GASMASK 0;
@@ -3092,7 +3092,7 @@ extended:
           var int stabVest;
 
           set isDamageAOE 0;
-          
+
           # debug_log "VEST TIME!";
           unit.getTag vestArmor Tag.UNIT_IMPACT_VEST;
           unit.getTag mutonBerserkerTag Tag.UNIT_MUTON_BERSERKER;
@@ -3121,7 +3121,7 @@ extended:
             # debug_log "damage was special or type 0, ignoring (can be from Insanity effects)";
             return power part side;
           end;
-                    
+
           if and eq damaging_type 9 eq isDamageAOE 1;
             # debug_log "damage is smoke and is aoe, ignoring";
             return power part side;
@@ -3187,11 +3187,11 @@ extended:
               return power part side;
             end;
           end;
-          
+
           if le power 0;
             return power part side;
           end;
-          
+
           if or eq side SIDE_LEFT eq side SIDE_RIGHT; #33%
             set vestArmor 3;
             battle_game.flashMessage "Damage reduced by: 33%";
@@ -3214,7 +3214,7 @@ extended:
           mul power vestArmor;
 
           # debug_log power;
-          
+
           return power part side;
       - offset: 4
         code: |
@@ -3273,11 +3273,11 @@ extended:
              # debug_log "Damage was NOT AOE";
              return power part side;
           end;
-          
+
           if le power 0;
             return power part side;
           end;
-          
+
           #battle_game.flashMessage "Gas Damage cancelled!";
           # debug_log "Gas damage reduced!";
           # debug_log "first is original power, after is power after reductions";
@@ -3371,7 +3371,7 @@ extended:
              # debug_log "Damage is AOE";
              return power part side;
           end;
- 
+
           unit.getTag profficencyTag Tag.UNIT_THE_ONE_PATH_PROFFICIENCY;
           battle_game.randomRange applyChance 1 100; #calculate random chance for debuff apply
           if ge applyChance profficencyTag;
@@ -3447,7 +3447,7 @@ extended:
           var ptr RuleItem damagingRuleItem;
           var ptre BattleItem leftHandItem;
           var ptre BattleItem rightHandItem;
-          var ptre BattleItem shieldItem; 
+          var ptre BattleItem shieldItem;
           var int isDamageAOE;
           var int leftTag;
           var int rightTag;
@@ -3466,7 +3466,7 @@ extended:
           unit.getRightHandWeapon rightHandItem;
           leftHandItem.getTag leftTag Tag.ITEM_IS_SHIELD;
           rightHandItem.getTag rightTag Tag.ITEM_IS_SHIELD;
-          
+
           # debug_log "SHIELD DETECTION....";
 
           if and neq leftTag 1 neq rightTag 1;
@@ -3504,7 +3504,7 @@ extended:
           damaging_item.getRuleItem damagingRuleItem;
           damagingRuleItem.getDamageType itemDamage;
           itemDamage.isAreaOfEffect isDamageAOE;
-          
+
           if or eq side SIDE_REAR eq side SIDE_UNDER;
             return power part side;
           end;
@@ -3563,7 +3563,7 @@ extended:
                 set temp 100;
             end;
 
-          else eq damaging_type 9; #Wont go through 
+          else eq damaging_type 9; #Wont go through
             shieldItem.getTag temp Tag.ITEM_SHIELD_CHOKING_RT;
             if eq temp 0; #this ensures all values are by default 100 instead of 0
                 set temp 100;
@@ -3722,14 +3722,14 @@ extended:
           if or eq blit_part blit_item_big;
             item.getRuleItem weaponRuleset;
             weaponRuleset.getTag shieldTag Tag.ITEM_IS_SHIELD;
-            
+
             if eq shieldTag 0;
               return sprite_index;
             end;
-            
+
            item.isFuseEnabled primedState;
            item.getTag brokenState Tag.ITEM_SHIELD_DURABILITY;
-           
+
            # debug_log "Shiield durability was";
            # debug_log brokenState;
 
@@ -3742,7 +3742,7 @@ extended:
              set primedResprite 0;
              # debug_log "Broken Resprite activated!";
            end;
- 
+
            if and eq primedResprite 0 eq brokenResprite 0;
              return sprite_index;
            end;
@@ -3830,13 +3830,13 @@ extended:
           if eq blit_part blit_item_floor;
             item.getRuleItem weaponRuleset;
             weaponRuleset.getTag shieldTag Tag.ITEM_IS_SHIELD;
-            
+
             if eq shieldTag 0;
               return sprite_index;
             end;
 
            item.getTag brokenState Tag.ITEM_SHIELD_DURABILITY;
-           
+
            # debug_log "Shiield durability was";
            # debug_log brokenState;
 
@@ -3845,7 +3845,7 @@ extended:
              set brokenResprite 1;
              # debug_log "Broken Resprite activated!";
            end;
- 
+
            if eq brokenResprite 0;
              return sprite_index;
            end;
@@ -3923,14 +3923,14 @@ extended:
           if or eq blit_part blit_item_lefthand eq blit_part blit_item_righthand;
             item.getRuleItem weaponRuleset;
             weaponRuleset.getTag shieldTag Tag.ITEM_IS_SHIELD;
-            
+
             if eq shieldTag 0;
               return sprite_index;
             end;
-            
+
            item.isFuseEnabled primedState;
            item.getTag brokenState Tag.ITEM_SHIELD_DURABILITY;
-           
+
            # debug_log "Shiield durability was";
            # debug_log brokenState;
 
@@ -3943,7 +3943,7 @@ extended:
              set primedResprite 0;
              # debug_log "Broken Resprite activated!";
            end;
- 
+
            if and eq primedResprite 0 eq brokenResprite 0;
              return sprite_index;
            end;
@@ -3995,7 +3995,7 @@ extended:
           unit.getTag frame Tag.LAST_HIT_FRAME;
           set frameLength 6;
           set recolorPeriod 36;
- 
+
           if neq frame 0;
             set temp anim_frame;
             sub temp frame;
@@ -4070,7 +4070,7 @@ extended:
           #debug_log "SKILL USE UNIT!";
           return;
     createItem:
-      - offset: 0.1 #testing 
+      - offset: 0.1 #testing
         code: |
           var int lightValue;
           var int lightPower;
@@ -4086,7 +4086,7 @@ extended:
           #debug_log tileX;
           #debug_log "Above was tileX";
           #tileToFind.getPosition.getY tileY;
-          #tileToFind.getPosition.getZ tileZ;			  
+          #tileToFind.getPosition.getZ tileZ;
           #battle_game.getTile tileToFind tileX tileY tileZ;
           #debug_log tileX;
           #debug_log tileY;
@@ -4094,7 +4094,7 @@ extended:
           #debug_log "CreateItem script";
 
           return;
-      - offset: 0.1 #testing 
+      - offset: 0.1 #testing
         code: |
           var int shieldTag;
           var int shieldArmorTag;
@@ -4120,7 +4120,7 @@ extended:
             item.setTag Tag.ITEM_SHIELD_AIMING_PENALTY shieldAimingPenaltyTag;
             item.setTag Tag.ITEM_SHIELD_MULTIPLIER shieldMultiplierTag;
             item.setTag Tag.ITEM_SHIELD_MAX_DMG shieldMaxDmgTag;
-            
+
             ruleItem.getTag temp Tag.SHIELD_SPECIAL_RT; #0 SPECIAL
             if neq temp 0;
               item.setTag Tag.ITEM_SHIELD_SPECIAL_RT temp;

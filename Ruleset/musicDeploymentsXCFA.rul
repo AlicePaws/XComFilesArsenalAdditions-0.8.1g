@@ -35,7 +35,7 @@ alienDeployments:
   - type: STR_OSIRON_HACIENDA
     briefing:
       background: CITY_RAID_BACKGROUND.SCR
-      palette: 2 
+      palette: 2
       music: PAYDAY2_BREAK_THE_RULES_INTRO
       desc: STR_OSIRON_HACIENDA_BRIEFING
       showTarget: false
